@@ -1,0 +1,47 @@
+[
+  {
+    "type": "string",
+    "heading": "string",
+    "content": [
+      {
+        "paragraph": "string"
+      },
+      {
+        "subheading": "string"
+      },
+      {
+        "list": [
+          "string",
+          "string",
+          "string"
+        ]
+      },
+      {
+        "list_with_title": "string",
+        "content": "string"
+      },
+      {
+        "list_item_with_title": "string",
+        "item_content": "string"
+      },
+      {
+        "table": {
+          "headers": [
+            "string",
+            "string"
+          ],
+          "rows": [
+            [
+              "string",
+              "string"
+            ],
+            [
+              "string",
+              "string"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+]

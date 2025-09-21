@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+body, html{
+  font-family: var(--font-exo2);
+  height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.rotation{
+  animation: animate-rotation linear 20s infinite;
+}
+
+@keyframes animate-rotation {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.individual-rotation{
+  animation: animate-individual linear 20s infinite; 
+}
+
+@keyframes animate-individual {
+  to{
+    transform: rotate(-360deg)
+  }
+}
+
+.minus-rotation{
+  animation: minus-rotation linear 20s infinite;
+}
+
+@keyframes minus-rotation {
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
+.-individual-rotation{
+  animation: minus-individual linear 20s infinite;
+}
+
+@keyframes minus-individual {
+  to{
+    transform: rotate(360deg)
+  }
+}
+
+.animate-screen {
+  animation: animate-screen 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes animate-screen{
+  to{
+    transform: translateY(20px)
+  }
+}
+
+.animate-scale{
+  background: radial-gradient(white, transparent);
+  animation: animate-scale 2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes animate-scale {
+  to{
+    transform: scale(1.05);
+  }
+}
+
+.animate-verify{
+  animation: animate-verify 4s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes animate-verify {
+  to{
+    transform: translateY(-20px);
+  }
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.title {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.hero{
+  height: 65rem;
+  width: 95%;
+}
+
+.features{
+  clip-path: circle(0.4% at center);
+  -webkit-clip-path: circle(0.4% at center);
+}
+
+@media (max-width: 720px) {
+  .features{
+    clip-path: circle(0.4% at 50%, 50%);
+    -webkit-clip-path: circle(0.4% at 50%, 50%);
+  }
+}
