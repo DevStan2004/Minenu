@@ -38,10 +38,10 @@ const Footer = () => {
                 <div className="flex flex-col space-y-5">
                     <p className="font-semibold">Legal</p>
                     <div className="flex flex-col space-y-3">
-                        <Link href=''>Privacy Policy</Link>
-                        <Link href=''>Terms of Service</Link>
-                        <Link href=''>Blog</Link>
-                        <Link href=''>WhitePaper</Link>
+                        <Link href='/privacy'>Privacy Policy</Link>
+                        <Link href='/terms'>Terms of Service</Link>
+                        <Link href='/blog'>Blog</Link>
+                        <Link href='/whitepaper'>WhitePaper</Link>
                     </div>
                 </div>
             </div>
