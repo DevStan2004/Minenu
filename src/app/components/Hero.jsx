@@ -78,8 +78,8 @@ const Hero = () => {
   return (
     <div ref={containerRef} className="flex flex-col items-center hero bg-gradient-to-t from-[#fafafa] mx-auto overflow-hidden rounded-b-4xl w-full">
         <div className="flex flex-col lg:w-[58%] md:w-[70%] w-full flex-grow flex-shrink-0 justify-center h-[40rem] md:mt-17 md:-mb-40 -mb-100 relative z-20">
-          <h1 className="lg:text-7xl md:text-5xl text-[3rem] tracking-tight text-[#273243] font-semibold text-center title md:pb-3 md:-pb-0 -pb-3 ">Neucleus Core</h1>
-          <h1 className="lg:text-7xl md:text-5xl text-[3rem] tracking-tight text-[#273243] font-semibold text-center title md:pb-3 md:-pb-0 -pb-3 "><span className="text-[#ff2815]">Chain</span></h1>
+          <h1 className="lg:text-8xl md:text-7xl text-[3rem] tracking-tight text-[#273243] font-semibold text-center title md:pb-3 md:-pb-0 -pb-3 ">Neucleus Core</h1>
+          <h1 className="lg:text-8xl md:text-7xl text-[3rem] tracking-tight text-[#273243] font-semibold text-center title md:pb-3 md:-pb-0 -pb-3 "><span className="text-[#ff2815]">Chain</span></h1>
           <p className="text-center text-[#6c656a] md:px-10 md:py-5 py-3 px-6 text-image">First Native Blockchain for the Next Generation of Decentralized Apps. Start mining Nucleus Core cryptocurrency today with lightweight architecture built for mobile hardware.</p>
           <div className="flex space-x-4 justify-center items-center text-image">
             <Link href='' className="lg:w-[25%] md:w-[22%] w-[30%]">
