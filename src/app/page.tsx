@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/all";
 import Navbar from '@/app/components/Navbar'
 import Hero from '@/app/components/Hero'
 import Feature from '@/app/components/Features'
@@ -9,8 +10,31 @@ import FAQS from '@/app/components/FAQS'
 import Connect from '@/app/components/Connect'
 import Footer from '@/app/components/Footer'
 import SocialsNav from '@/app/components/SocialsNav'
+import Lenis from '@studio-freight/lenis';
+import gsap from 'gsap';
 
 export default function Home() {
+
+  useEffect(() => {
+      // 1. Initialize Lenis for smooth scrolling
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      });
+  
+      // 2. Sync Lenis and GSAP ScrollTrigger
+      lenis.on('scroll', ScrollTrigger.update);
+      gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
+      });
+      gsap.ticker.lagSmoothing(0);
+  
+      // Clean up the instances when the component unmounts
+      return () => {
+        lenis.destroy();
+        ScrollTrigger.killAll(); // Important for cleaning up GSAP animations
+      };
+  }, []);
 
   const icons = [
     {

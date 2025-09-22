@@ -76,10 +76,10 @@ const Hero = () => {
     }, {scope: containerRef})
     
   return (
-    <div ref={containerRef} className="flex flex-col items-center hero bg-gradient-to-t from-[#fafafa] mx-auto overflow-hidden rounded-b-4xl">
-        <div className="flex flex-col lg:w-[58%] md:w-[70%] flex-grow flex-shrink-0 justify-center h-[40rem] md:mt-17 md:-mb-40 -mb-100">
-          <h1 className="lg:text-7xl md:text-5xl text-4xl tracking-tight text-[#273243] font-semibold text-center title pb-3">Innovating the <span className="text-[#ff2815]">Future</span></h1>
-          <h1 className="lg:text-7xl md:text-5xl text-4xl tracking-tight text-[#273243] font-semibold text-center title pb-3">of Web3 for <span className="text-[#ff2815]">Everyone</span></h1>
+    <div ref={containerRef} className="flex flex-col items-center hero bg-gradient-to-t from-[#fafafa] mx-auto overflow-hidden rounded-b-4xl w-full">
+        <div className="flex flex-col lg:w-[58%] md:w-[70%] w-full flex-grow flex-shrink-0 justify-center h-[40rem] md:mt-17 md:-mb-40 -mb-100 relative z-20">
+          <h1 className="lg:text-7xl md:text-5xl text-[2rem] tracking-tight text-[#273243] font-semibold text-center title pb-3">Innovating the <span className="text-[#ff2815]">Future</span></h1>
+          <h1 className="lg:text-7xl md:text-5xl text-[2rem] tracking-tight text-[#273243] font-semibold text-center title pb-3">of Web3 for <span className="text-[#ff2815]">Everyone</span></h1>
           <p className="text-center text-[#6c656a] md:px-10 md:py-5 py-3 px-6 text-image">With Celia, Web3 becomes simple, accessible, and rewarding for everyone. Whether you want to transact, build, or play, Celia is the key to unlocking the full potential of digital assets.</p>
           <div className="flex space-x-4 justify-center items-center text-image">
             <Link href='' className="lg:w-[25%] md:w-[22%] w-[30%]">
