@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
+import { ScrollTrigger } from "gsap/all";
 import Navbar from '@/app/components/Navbar'
 import Hero from '@/app/components/Hero'
 import Feature from '@/app/components/Features'
@@ -9,8 +10,31 @@ import FAQS from '@/app/components/FAQS'
 import Connect from '@/app/components/Connect'
 import Footer from '@/app/components/Footer'
 import SocialsNav from '@/app/components/SocialsNav'
+import Lenis from '@studio-freight/lenis';
+import gsap from 'gsap';
 
 export default function Home() {
+
+  useEffect(() => {
+      // 1. Initialize Lenis for smooth scrolling
+      const lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      });
+  
+      // 2. Sync Lenis and GSAP ScrollTrigger
+      lenis.on('scroll', ScrollTrigger.update);
+      gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
+      });
+      gsap.ticker.lagSmoothing(0);
+  
+      // Clean up the instances when the component unmounts
+      return () => {
+        lenis.destroy();
+        ScrollTrigger.killAll(); // Important for cleaning up GSAP animations
+      };
+  }, []);
 
   const icons = [
     {
@@ -63,8 +87,8 @@ export default function Home() {
       <Hero />
       <div className="flex flex-col mt-20">
         <div className="flex justify-center flex-col md:space-y-5 space-y-3 mb-9">
-          <h3 className='text-center text-4xl font-bold'>Standing Strong on <span className="text-[#ff2815]">2M+</span> Celians</h3>
-          <p className='text-center'>Together building the Celia Ecosystem one step at a time</p>
+          <h3 className='text-center text-4xl font-bold'>Standing Strong on <span className="text-[#ff2815]">2M+</span> Minenuns</h3>
+          <p className='text-center'>Together building the Minenu Ecosystem one step at a time</p>
         </div>
         <div className="flex md:flex-row flex-col items-center md:w-[80%] mx-auto md:space-x-5 gap-2 w-full md:p-0 p-2">
           <div className="hover:shadow-xl border border-[#e4e4e4] overflow-hidden rounded-xl transition-shadow duration-100 flex-grow w-full">

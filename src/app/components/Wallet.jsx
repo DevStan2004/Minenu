@@ -22,11 +22,11 @@ const Wallet = () => {
       <div className="w-full rounded-2xl bg-[#fbfbfb] shadow border-[0.01px] border-[#e4e4e7] flex flex-col items-start space-y-3 relative z-1 p-3">
         <Image src={leanMoreLogo} className='shadow border-2 border-white w-20 h-20 rounded-xl' width={1000} height={1000} alt='lean more logo' />
         <div className="flex items-center space-x-3">
-            <span className='text-2xl font-semibold'>CELIA</span>
+            <span className='text-2xl font-semibold'>Minenu</span>
             <Image src={verifiedicon} width={1000} height={1000} alt='verified icon' className='w-6 h-6' />
         </div>
-        <p className="font-light">Innovating the Future of Web3 for Everyone 🌍 Products: @CeliaAcademy @CeliaBlockchain @CeliaWallet @CeliaPayApp | Help: @Celia_HelpDesk</p>
-        <div className="rounded-md border border-[#e4e4e7] text-[13px] bg-[#f4f4f5]">https://celia.ltd</div>
+        <p className="font-light">Innovating the Future of Web3 for Everyone 🌍 Products: @MinenuAcademy @MinenuBlockchain @MinenuWallet @MinenuPayApp | Help: @Minenu_HelpDesk</p>
+        <div className="rounded-md border border-[#e4e4e7] text-[13px] bg-[#f4f4f5]">https://Minenu.ltd</div>
       </div>
       <div className="flex justify-center items center p-5 w-full">
         <div className="flex items-center md:space-x-5 space-x-1">
@@ -59,22 +59,22 @@ const Wallet = () => {
       <div className="flex flex-col space-y-5 w-full">
         <div className="border border-[#e4e4e7] p-4 rounded-3xl cursor-pointer hover:shadow-md hover:-translate-y-1 transition-translate hover:skew-2 transition-transform transition-shadow duration-200 flex justify-between items-center">
             <Image src={leanMoreLogo} className='shadow border-2 border-white w-10 h-10 rounded-lg' width={1000} height={1000} alt='lean more logo' />
-            <p className="md:text-lg">Celia Group | Innovating the Future of Web3</p>
+            <p className="md:text-lg">Minenu Group | Innovating the Future of Web3</p>
             <ArrowRight className='text-[#e4e4e4] -rotate-45' />
         </div>
         <div className="border border-[#e4e4e7] p-4 rounded-3xl cursor-pointer hover:shadow-md hover:-translate-y-1 transition-translate hover:skew-2 transition-transform transition-shadow duration-200 flex justify-between items-center">
             <Image src={leanMoreLogoGray} className='shadow border-2 border-white w-10 h-10 rounded-lg' width={1000} height={1000} alt='lean more logo' />
-            <p className="md:text-lg">Celia Support | Here for You, Anytime.</p>
+            <p className="md:text-lg">Minenu Support | Here for You, Anytime.</p>
             <ArrowRight className='text-[#e4e4e4] -rotate-45' />
         </div>
         <div className="border border-[#e4e4e7] p-4 rounded-3xl cursor-pointer hover:shadow-md hover:-translate-y-1 transition-translate hover:skew-2 transition-transform transition-shadow duration-200 flex justify-between items-center">
             <Image src={leanMoreLogoGreen} className='shadow border-2 border-white w-10 h-10 rounded-lg' width={1000} height={1000} alt='lean more logo' />
-            <p className="md:text-lg">Celia Beta | Be the first to test upcoming apps</p>
+            <p className="md:text-lg">Minenu Beta | Be the first to test upcoming apps</p>
             <ArrowRight className='text-[#e4e4e4] -rotate-45' />
         </div>
         <div className="border border-[#e4e4e7] p-4 rounded-3xl cursor-pointer hover:shadow-md hover:-translate-y-1 transition-translate hover:skew-2 transition-transform transition-shadow duration-200 flex justify-between items-center">
             <Image src={leanMoreLogoOrange} className='shadow border-2 border-white w-10 h-10 rounded-lg' width={1000} height={1000} alt='lean more logo' />
-            <p className="md:text-lg">Celia Web3 Wallet | Own Your Keys, Own Your Crypto</p>
+            <p className="md:text-lg">Minenu Web3 Wallet | Own Your Keys, Own Your Crypto</p>
             <ArrowRight className='text-[#e4e4e4] -rotate-45' />
         </div>
         <div className="border border-[#e4e4e7] p-4 rounded-3xl cursor-pointer hover:shadow-md hover:-translate-y-1 transition-translate hover:skew-2 transition-transform transition-shadow duration-200 flex justify-between items-center">

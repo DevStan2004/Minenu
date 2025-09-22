@@ -50,7 +50,7 @@ const page = () => {
     // }, [])
 
   return (
-    <div ref={containerRef} className='relative bg-[#fbfbfb] overflow-y-scroll h-screen w-full'>
+    <div data-lenis-prevent ref={containerRef} className='relative bg-[#fbfbfb] overflow-y-scroll h-screen w-full'>
         <LearnMoreNav active={active} />
         <LearnMoreBackgroundComponent />
         <Wallet />

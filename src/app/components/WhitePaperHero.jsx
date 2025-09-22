@@ -11,13 +11,13 @@ const whitePaperData = [
     {
         id: 1,
         typeIntro: 'introduction',
-        heading: 'What is Celia?',
-        title: 'What is Celia?',
+        heading: 'What is Minenu?',
+        title: 'What is Minenu?',
         content: 'A next-generation Web3 ecosystem designed to make digital assets easy to use, send, earn, and build with.',
-        celiacontent2: "Celia is a next-generation Web3 ecosystem designed to make digidual assets easy to use, send, earn, and build with. Powered by Celia Token (CELIA), the platform is more than just a cryptocurrency—it's an open network for users, gamers, and developers to interact with blockhain in a seamless way.",
-        celiacontent3: "At its core, Celia enables:",
-        celiacontent3Item: ['✅Effortless Transactions - Send, receive, withdraw and stake CELIA for real-world value', '✅ Mini Apps & Developer Innovation – Developers can build applications within the Celia ecosystem, fully powered by CELIA', "✅ Gaming & Play-to-Earn – Games can integrate CELIA for in-game purchases, rewards, and P2E mechanics", "✅ A Decentralized Future – Users and developers can build without limits, tapping into the power of blockchain"],
-        celiacontent4: 'With Celia, Web3 becomes simple, accessible, and rewarding for everyone. Whether you want to transact, build, or play, Celia is the key to unlocking the full potential of digital assets.'
+        Minenucontent2: "Minenu is a next-generation Web3 ecosystem designed to make digidual assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it's an open network for users, gamers, and developers to interact with blockhain in a seamless way.",
+        Minenucontent3: "At its core, Minenu enables:",
+        Minenucontent3Item: ['✅Effortless Transactions - Send, receive, withdraw and stake Minenu for real-world value', '✅ Mini Apps & Developer Innovation – Developers can build applications within the Minenu ecosystem, fully powered by Minenu', "✅ Gaming & Play-to-Earn – Games can integrate Minenu for in-game purchases, rewards, and P2E mechanics", "✅ A Decentralized Future – Users and developers can build without limits, tapping into the power of blockchain"],
+        Minenucontent4: 'With Minenu, Web3 becomes simple, accessible, and rewarding for everyone. Whether you want to transact, build, or play, Minenu is the key to unlocking the full potential of digital assets.'
     },
     {
         id: 2,
@@ -25,39 +25,39 @@ const whitePaperData = [
         heading: 'Vision & Mission',
         title: 'Vision & Mission',
         visiontitle: 'Vision & Mission',
-        content: 'Celia’s vision to create a Web3-powered digital economy and mission to empower users, developers, and creators.',
+        content: 'Minenu’s vision to create a Web3-powered digital economy and mission to empower users, developers, and creators.',
         visionsubtitle1: "Vision",
-        visioncontent2: "Celia’s vision is to create a Web3-powered digital economy where anyone can send, receive, stake, build, and play with real value—without technical barriers or restrictions.",
+        visioncontent2: "Minenu’s vision is to create a Web3-powered digital economy where anyone can send, receive, stake, build, and play with real value—without technical barriers or restrictions.",
         visioncontent3: 'We believe that:',
-        visioncontent3Item: ['Digital assets should be easy to use—anyone should be able to transact in seconds', 'Developers should have opportunities to build—and be rewarded for their ideas', "Gaming should be more than entertainment—it should create economic opportunities", "Decentralization should be the future—giving control back to users and creators", "Celia is not just a token or a platform—it’s an entire ecosystem that connects people, technology, and real-world value"],
+        visioncontent3Item: ['Digital assets should be easy to use—anyone should be able to transact in seconds', 'Developers should have opportunities to build—and be rewarded for their ideas', "Gaming should be more than entertainment—it should create economic opportunities", "Decentralization should be the future—giving control back to users and creators", "Minenu is not just a token or a platform—it’s an entire ecosystem that connects people, technology, and real-world value"],
         visionsubtitle2: 'Mission',
-        visioncontent4: 'Celia aims to:',
-        visioncontent4Items: ['🔹 Enable Simple & Secure Transactions – Make staking, payments, gifting, and withdrawals seamless', '🔹 Empower Developers – Fund and support Mini Apps that bring new ideas to life', "🔹 Revolutionize Gaming – Provide a Play-to-Earn and in-game purchase system using CELIA", "Bridge Millions of Users to Web3 – Help everyone, from users to developers, benefit from blockchain"],
-        visioncontent6: "Through innovation, funding, and decentralization, Celia will reshape how digital assets work—making them faster, easier, and more rewarding."
+        visioncontent4: 'Minenu aims to:',
+        visioncontent4Items: ['🔹 Enable Simple & Secure Transactions – Make staking, payments, gifting, and withdrawals seamless', '🔹 Empower Developers – Fund and support Mini Apps that bring new ideas to life', "🔹 Revolutionize Gaming – Provide a Play-to-Earn and in-game purchase system using Minenu", "Bridge Millions of Users to Web3 – Help everyone, from users to developers, benefit from blockchain"],
+        visioncontent6: "Through innovation, funding, and decentralization, Minenu will reshape how digital assets work—making them faster, easier, and more rewarding."
     },
     {
         id: 3,
         typeIntro: 'introduction',
         heading: 'Core Focus Areas',
         title: 'Core Focus Areas',
-        content: 'Exploring how Celia Token (CELIA) powers transactions, Mini Apps, gaming, and developer innovation in the Web3 ecosystem.',
-        corecontent2: `Celia Token (<span className="text-white">CELIA</span>) is at the center of the Celia Web3 ecosystem, making it easy for users to stake, send, receive, withdraw, and even gift digital assets that hold real-world value.`,
-        corecontent3: 'With Celia, users and developers can do more than just trade crypto—they can build, earn, and interact with the ecosystem in exciting ways.',
-        corecontent5: 'Here’s how Celia Token (CELIA) will power the next generation of Web3 experiences:',
+        content: 'Exploring how Minenu Token (Minenu) powers transactions, Mini Apps, gaming, and developer innovation in the Web3 ecosystem.',
+        corecontent2: `Minenu Token (<span className="text-white">Minenu</span>) is at the center of the Minenu Web3 ecosystem, making it easy for users to stake, send, receive, withdraw, and even gift digital assets that hold real-world value.`,
+        corecontent3: 'With Minenu, users and developers can do more than just trade crypto—they can build, earn, and interact with the ecosystem in exciting ways.',
+        corecontent5: 'Here’s how Minenu Token (Minenu) will power the next generation of Web3 experiences:',
         corenumberedTitle1: '1. Everyday Transactions & Real-World Value',
-        corenumberedContent1: 'Celia Token isn’t just another cryptocurrency—it’s designed for real use cases.',
-        corenumberedContent1Array1: ['✅ Send & Receive Assets: Users can easily transfer CELIA to anyone, anywhere, instantly.', '✅ Withdraw & Hold Real-World Value: CELIA can be converted to other assets or withdrawn as needed.', '✅ Gift Friends & Family: Want to share value? CELIA allows users to send gifts in seconds.', '✅ Gift Friends & Family: Want to share value? CELIA allows users to send gifts in seconds.', '✅ Staking & Rewards: Users can stake CELIA and earn passive income, helping secure the network while benefiting from their holdings.'],
-        corenumberedTitle2: '2. Celia Mini Apps: Developer-Powered Innovation',
-        corenumberedContent2: 'Celia is not just for users—it’s also for builders. The Celia Mini App Program is a game-changer for developers who want to launch apps inside the ecosystem.',
+        corenumberedContent1: 'Minenu Token isn’t just another cryptocurrency—it’s designed for real use cases.',
+        corenumberedContent1Array1: ['✅ Send & Receive Assets: Users can easily transfer Minenu to anyone, anywhere, instantly.', '✅ Withdraw & Hold Real-World Value: Minenu can be converted to other assets or withdrawn as needed.', '✅ Gift Friends & Family: Want to share value? Minenu allows users to send gifts in seconds.', '✅ Gift Friends & Family: Want to share value? Minenu allows users to send gifts in seconds.', '✅ Staking & Rewards: Users can stake Minenu and earn passive income, helping secure the network while benefiting from their holdings.'],
+        corenumberedTitle2: '2. Minenu Mini Apps: Developer-Powered Innovation',
+        corenumberedContent2: 'Minenu is not just for users—it’s also for builders. The Minenu Mini App Program is a game-changer for developers who want to launch apps inside the ecosystem.',
         coreminiDefinitionQuestion: 'What is a Mini App?',
-        coreminiDefinitionAnswer: 'A Mini App is a small, lightweight application built by developers that runs inside the Celia ecosystem—powered by CELIA for payments, transactions, and rewards.',
-        corenumberedContent1Array2: ['✅ Developers Get Funded: The Celia Group will invest in standout ideas from users who are developers.', '✅ Free Access to Millions of Users: Any developer launching a Mini App gets access to Celia’s large user base for free.', '✅ Monetization & Revenue: Developers can earn from their apps using CELIA-based transactions, subscriptions, or in-app purchases.', '✅ Built for Web3: Mini Apps will be fully decentralized and powered by CELIA for payments, gaming, and other innovative features.'],
-        corebottomContent: '🚀 Celia is giving developers the tools and funding to create the next big Web3 applications!',
-        corenumberedTitle3: '3. Gaming: Play-to-Earn & In-App Purchases with CELIA',
-        corenumberedContent3: 'Game developers can use Celia Token (CELIA) inside their games, making it a key part of Play-to-Earn mechanics and in-game purchases.',
-        corenumberedContent1Array3: ['✅ Play-to-Earn (P2E): Players can earn CELIA as rewards by playing games.', '✅ In-Game Purchases: CELIA can be used to buy items, skins, characters, and upgrades.', '✅ Monetization for Game Developers: Developers who integrate CELIA into their games can earn revenue directly from users.', '✅ Seamless Integration: Games built with Celia’s Mini App Program can easily tap into Celia’s millions of users.'],
-        corebottomContent1: 'Celia removes the complexity of Web3 game development by giving developers an easy way to integrate blockchain payments and rewards.',
-        corebottomContent2: 'Celia empowers users and developers to connect, create, and earn in a borderless, decentralized future. 🚀',
+        coreminiDefinitionAnswer: 'A Mini App is a small, lightweight application built by developers that runs inside the Minenu ecosystem—powered by Minenu for payments, transactions, and rewards.',
+        corenumberedContent1Array2: ['✅ Developers Get Funded: The Minenu Group will invest in standout ideas from users who are developers.', '✅ Free Access to Millions of Users: Any developer launching a Mini App gets access to Minenu’s large user base for free.', '✅ Monetization & Revenue: Developers can earn from their apps using Minenu-based transactions, subscriptions, or in-app purchases.', '✅ Built for Web3: Mini Apps will be fully decentralized and powered by Minenu for payments, gaming, and other innovative features.'],
+        corebottomContent: '🚀 Minenu is giving developers the tools and funding to create the next big Web3 applications!',
+        corenumberedTitle3: '3. Gaming: Play-to-Earn & In-App Purchases with Minenu',
+        corenumberedContent3: 'Game developers can use Minenu Token (Minenu) inside their games, making it a key part of Play-to-Earn mechanics and in-game purchases.',
+        corenumberedContent1Array3: ['✅ Play-to-Earn (P2E): Players can earn Minenu as rewards by playing games.', '✅ In-Game Purchases: Minenu can be used to buy items, skins, characters, and upgrades.', '✅ Monetization for Game Developers: Developers who integrate Minenu into their games can earn revenue directly from users.', '✅ Seamless Integration: Games built with Minenu’s Mini App Program can easily tap into Minenu’s millions of users.'],
+        corebottomContent1: 'Minenu removes the complexity of Web3 game development by giving developers an easy way to integrate blockchain payments and rewards.',
+        corebottomContent2: 'Minenu empowers users and developers to connect, create, and earn in a borderless, decentralized future. 🚀',
     },
     {
         id: 4,
@@ -65,162 +65,162 @@ const whitePaperData = [
         heading: 'Why Blockchain?',
         title: 'Why Blockchain?',
         content: 'Exploring the transformative power of blockchain technology in creating a decentralized, secure, and transparent ecosystem.',
-        chaincontent1: "The Celia ecosystem leverages blockchain technology to provide a secure, transparent, and decentralized framework for transactions, gaming, and developer applications. Traditional financial systems and centralized platforms often impose limitations on users and developers, including high fees, restricted access, and third-party control. Blockchain removes these obstacles, ensuring seamless, trustless, and efficient interactions within the Celia ecosystem.",
+        chaincontent1: "The Minenu ecosystem leverages blockchain technology to provide a secure, transparent, and decentralized framework for transactions, gaming, and developer applications. Traditional financial systems and centralized platforms often impose limitations on users and developers, including high fees, restricted access, and third-party control. Blockchain removes these obstacles, ensuring seamless, trustless, and efficient interactions within the Minenu ecosystem.",
         chaintitle2: 'Decentralization: Removing Barriers for Users & Developers',
-        chaincontent2: 'Centralized platforms control transactions, enforce arbitrary policies, and limit access based on location, regulatory restrictions, or platform rules. Celia utilizes blockchain to eliminate these restrictions, allowing:',
-        chaincontent2Items: ['Users to send, receive, withdraw, and stake CELIA without intermediaries.', 'Developers to launch Mini Apps that integrate CELIA and immediately tap into Celia’s user base.', 'Game developers to build Play-to-Earn (P2E) models with direct in-game transactions using CELIA.', 'A community-driven governance model where decisions are made by CELIA holders instead of a centralized authority.'],
+        chaincontent2: 'Centralized platforms control transactions, enforce arbitrary policies, and limit access based on location, regulatory restrictions, or platform rules. Minenu utilizes blockchain to eliminate these restrictions, allowing:',
+        chaincontent2Items: ['Users to send, receive, withdraw, and stake Minenu without intermediaries.', 'Developers to launch Mini Apps that integrate Minenu and immediately tap into Minenu’s user base.', 'Game developers to build Play-to-Earn (P2E) models with direct in-game transactions using Minenu.', 'A community-driven governance model where decisions are made by Minenu holders instead of a centralized authority.'],
         chaincontent3: 'This structure ensures that all participants—users, developers, and businesses—operate in an open and permissionless environment.',
         chaintitle3: 'Security: Safeguarding Transactions and Digital Assets',
-        chaincontent4: 'Blockchain transactions are immutable and cryptographically secure, reducing the risks of fraud, hacking, and unauthorized access. The Celia ecosystem incorporates:',
+        chaincontent4: 'Blockchain transactions are immutable and cryptographically secure, reducing the risks of fraud, hacking, and unauthorized access. The Minenu ecosystem incorporates:',
         chaincontent4items: ['Smart contracts to automate and secure transactions for payments, staking, and Mini App interactions.', 'Decentralized storage of user assets, eliminating the risk of centralized exchange hacks.', 'A trustless gaming system where rewards and in-game purchases are verifiable on the blockchain.', 'User-controlled wallets with private keys, ensuring complete ownership of digital assets.'],
         chaincontent5: 'By eliminating reliance on third-party systems, blockchain significantly enhances the security and integrity of financial and gaming transactions.',
         chaintitle4: 'Transparency: Ensuring Verifiable Transactions & Fair Rewards',
-        chaincontent6: 'All transactions within the Celia ecosystem are recorded on the blockchain, allowing users, developers, and businesses to verify:',
-        chaincontent6items: ['The accuracy of Play-to-Earn (P2E) rewards in gaming applications.', 'Developer earnings from Mini Apps without dependence on centralized payment processors.', 'CELIA transactions for staking, gifting, and withdrawals, ensuring fair and open financial interactions.', 'Transaction fees and smart contract execution to prevent hidden charges or unauthorized deductions.'],
-        chaincontent7: 'This transparency fosters trust between all participants, making Celia a fair and open Web3 ecosystem.'
+        chaincontent6: 'All transactions within the Minenu ecosystem are recorded on the blockchain, allowing users, developers, and businesses to verify:',
+        chaincontent6items: ['The accuracy of Play-to-Earn (P2E) rewards in gaming applications.', 'Developer earnings from Mini Apps without dependence on centralized payment processors.', 'Minenu transactions for staking, gifting, and withdrawals, ensuring fair and open financial interactions.', 'Transaction fees and smart contract execution to prevent hidden charges or unauthorized deductions.'],
+        chaincontent7: 'This transparency fosters trust between all participants, making Minenu a fair and open Web3 ecosystem.'
 
     },
     {
         id: 5,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Limitations of Traditional Finance',
         title: 'Limitations of Traditional Finance',
-        content: 'Exploring the barriers in centralized financial platforms and how Celia’s Web3 ecosystem provides a solution.',
-        limitationcontent1: 'Traditional financial systems and centralized applications have long been the primary way people transact, save, and interact with digital platforms. However, these systems come with significant limitations that restrict user autonomy, increase costs, and limit innovation. Celia addresses these issues by providing a decentralized, open, and efficient Web3 ecosystem powered by Celia Token (CELIA).',
+        content: 'Exploring the barriers in centralized financial platforms and how Minenu’s Web3 ecosystem provides a solution.',
+        limitationcontent1: 'Traditional financial systems and centralized applications have long been the primary way people transact, save, and interact with digital platforms. However, these systems come with significant limitations that restrict user autonomy, increase costs, and limit innovation. Minenu addresses these issues by providing a decentralized, open, and efficient Web3 ecosystem powered by Minenu Token (Minenu).',
         limitationsubtitle: 'Restricted Access & Financial Exclusion',
         limitationcontent2: 'Traditional banking and payment systems are not accessible to everyone due to:',
         limitationcontent2Items: ['Geographical limitations that prevent people in certain regions from opening accounts or accessing global financial services.', 'High entry barriers that require documentation, credit scores, and approvals to access even basic services.', 'Dependency on centralized authorities that can freeze accounts, block transactions, or restrict users based on policies.'],
-        limitationcontent3: 'Blockchain-based systems like Celia remove these barriers by enabling anyone with an internet connection to send, receive, withdraw, and stake CELIA without restrictions.',
+        limitationcontent3: 'Blockchain-based systems like Minenu remove these barriers by enabling anyone with an internet connection to send, receive, withdraw, and stake Minenu without restrictions.',
         limitationsubtitle1: 'High Transaction Fees & Delays',
         limitationcontent4: 'Centralized financial services impose various fees that increase costs for users and businesses:',
         limitationcontent4items: ['Bank transfers & remittances come with high fees, especially for international transactions.', 'Payment processing platforms charge businesses for every transaction.', 'Gaming & app store fees take up to 30% of revenue from developers.', 'Withdrawal limits & processing delays make access to funds slow and inconvenient.'],
-        limitationcontent5: 'Celia’s blockchain infrastructure allows users and developers to transact directly without intermediaries, reducing fees and ensuring near-instant payments.',
+        limitationcontent5: 'Minenu’s blockchain infrastructure allows users and developers to transact directly without intermediaries, reducing fees and ensuring near-instant payments.',
         limitationsubtitle2: 'Lack of Transparency & User Control',
         limitationcontent6: 'Traditional platforms operate in closed environments, where users and developers have little visibility into:',
         limitationcontent6items: ['How their funds are handled by financial institutions.', 'Revenue-sharing models of centralized gaming platforms and app stores.', 'Hidden fees and algorithmic control over digital transactions.'],
-        limitationcontent7: 'Celia’s decentralized approach ensures that all transactions, rewards, and earnings are recorded on-chain, making them fully transparent and verifiable.',
+        limitationcontent7: 'Minenu’s decentralized approach ensures that all transactions, rewards, and earnings are recorded on-chain, making them fully transparent and verifiable.',
         limitationsubtitle3: 'Limited Innovation & Developer Restrictions',
         limitationcontent8: 'Developers who create applications, games, or financial tools on centralized platforms face:',
         limitationcontent8Items: ['Approval processes & restrictions that limit creativity and access to user bases.', 'High revenue cuts from third-party platforms controlling monetization.', 'Inability to integrate blockchain payments and digital ownership in a seamless way.'],
-        limitationcontent9: 'Celia provides a Mini App program where developers can launch blockchain-powered applications, integrate CELIA transactions, and instantly access millions of users—without platform fees or restrictions.',
-        limitationcontent10: "By overcoming these traditional financial limitations, Celia is creating an open, borderless, and user-empowered digital economy where anyone can transact, build, and earn without barriers."
+        limitationcontent9: 'Minenu provides a Mini App program where developers can launch blockchain-powered applications, integrate Minenu transactions, and instantly access millions of users—without platform fees or restrictions.',
+        limitationcontent10: "By overcoming these traditional financial limitations, Minenu is creating an open, borderless, and user-empowered digital economy where anyone can transact, build, and earn without barriers."
     },
     {
         id: 6,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Current Ecosystem Challenges',
         title: 'Current Ecosystem Challenges',
-        content: 'Exploring the critical problems in digital payments, gaming, and developer monetization that Celia aims to solve.',
+        content: 'Exploring the critical problems in digital payments, gaming, and developer monetization that Minenu aims to solve.',
         currentsubtitle: 'Problems in Digital Transactions, Gaming, and Developer Monetization',
-        currentcontent1: 'As the world becomes increasingly digital, users, gamers, and developers still face significant challenges when it comes to transactions, financial inclusion, gaming economies, and app monetization. The Celia ecosystem is designed to solve these problems by removing centralized restrictions, reducing costs, and providing an open, blockchain-powered economy.',
+        currentcontent1: 'As the world becomes increasingly digital, users, gamers, and developers still face significant challenges when it comes to transactions, financial inclusion, gaming economies, and app monetization. The Minenu ecosystem is designed to solve these problems by removing centralized restrictions, reducing costs, and providing an open, blockchain-powered economy.',
         currentsubtitle1: 'Problems in Digital Transactions',
         currentcontent2: 'Traditional digital transactions—whether for payments, gaming, or online purchases—are slow, expensive, and often restricted by intermediaries.',
         currentcontent2items: ['High Fees – Payment processors, banks, and third-party platforms charge transaction fees, withdrawal fees, and hidden service fees that cut into users’ funds.', 'Slow Processing Times – Bank transfers, payment settlements, and cross-border transactions can take days due to regulatory delays and intermediary approvals.', 'Limited Accessibility – Many users, especially in emerging markets, lack access to seamless digital payment systems due to strict banking requirements.', 'Fraud & Chargebacks – Centralized payment systems allow reversible transactions, leading to fraud, loss of funds, and increased operational costs for businesses.'],
-        currentsubtitle2: 'How Celia Solves It:',
-        currentsubtitle2items: ['CELIA transactions are instant, borderless, and low-cost, allowing users to send, receive, and withdraw assets efficiently.', 'No intermediaries or banking restrictions, enabling financial inclusion for all users.', 'Transactions are recorded on-chain, preventing fraud and chargebacks.'],
+        currentsubtitle2: 'How Minenu Solves It:',
+        currentsubtitle2items: ['Minenu transactions are instant, borderless, and low-cost, allowing users to send, receive, and withdraw assets efficiently.', 'No intermediaries or banking restrictions, enabling financial inclusion for all users.', 'Transactions are recorded on-chain, preventing fraud and chargebacks.'],
         currentsubtitle3: 'Problems in Gaming & Play-to-Earn (P2E) Models',
         currentsubtitle3items: ['The gaming industry has shifted towards Play-to-Earn (P2E) models and digital ownership, but traditional gaming ecosystems create significant barriers for players and developers.', 'Lack of True Digital Ownership – Gamers purchase in-game assets (skins, weapons, items) but don’t truly own them—they are tied to centralized servers.', 'P2E Gaming Rewards Are Often Unstable – Many P2E games rely on unsustainable reward systems, making it hard for players to earn real value.', 'High Transaction & Withdrawal Fees – Cashing out gaming rewards often comes with expensive fees and slow processing times.', 'Developers Face High Revenue Cuts – Game developers who list their apps on major platforms like Google Play or Apple App Store lose up to 30% of their revenue in platform fees.'],
-        currentsubtitle4: 'How Celia Solves It:',
-        currentsubtitle4items: ['CELIA allows in-game asset ownership, meaning players truly own and trade their digital items.', 'Stable P2E ecosystem backed by CELIA transactions, ensuring sustainable rewards for gamers.', 'Low transaction fees for purchases and rewards, making gaming earnings more valuable.', 'Game developers integrate CELIA into their games and monetize without third-party restrictions.'],
+        currentsubtitle4: 'How Minenu Solves It:',
+        currentsubtitle4items: ['Minenu allows in-game asset ownership, meaning players truly own and trade their digital items.', 'Stable P2E ecosystem backed by Minenu transactions, ensuring sustainable rewards for gamers.', 'Low transaction fees for purchases and rewards, making gaming earnings more valuable.', 'Game developers integrate Minenu into their games and monetize without third-party restrictions.'],
         currentsubtitle5: 'Problems in Developer Monetization & App Ecosystems',
         currentcontent3: 'Developers who create apps, games, and digital services struggle with unfair revenue-sharing models, platform restrictions, and discoverability issues.',
         currentcontent3item: ['High Platform Fees – Major app stores and payment processors take significant cuts from developer revenue, limiting profitability.', 'Strict Approval Processes – Developers must comply with centralized platform rules, often leading to rejections or restrictions on innovative apps.', 'Lack of Funding for New Ideas – Many developers lack access to funding and user bases, making it hard to scale their projects.', 'Difficulty Reaching Users – Even after launching, developers struggle with discoverability and user adoption.'],
-        currentsubtitle6: 'How Celia Solves It:',
-        currentsubtitle6items: ['Mini App developers keep 100% of their revenue—no platform fees or restrictions.', 'Celia funds and supports promising developers, providing capital and user exposure.', 'Built-in user base—apps launched on Celia instantly tap into millions of users.', 'CELIA-based transactions allow direct earnings, ensuring a sustainable Web3 developer economy.'],
+        currentsubtitle6: 'How Minenu Solves It:',
+        currentsubtitle6items: ['Mini App developers keep 100% of their revenue—no platform fees or restrictions.', 'Minenu funds and supports promising developers, providing capital and user exposure.', 'Built-in user base—apps launched on Minenu instantly tap into millions of users.', 'Minenu-based transactions allow direct earnings, ensuring a sustainable Web3 developer economy.'],
         currenttabletitle: 'Summary of Key Problems & Solutions',
         currenttable: [
             {
-                header: ['Problem', 'Traditional System Issues', "Celia's Solution"]
+                header: ['Problem', 'Traditional System Issues', "Minenu's Solution"]
             }, {
                 dataname: 'Digital Transactions',
-                datacontent: ['High fees, delays, limited access', 'Instant, low-cost CELIA transactions']
+                datacontent: ['High fees, delays, limited access', 'Instant, low-cost Minenu transactions']
             }, {
                 dataname: 'Gaming & P2E',
-                datacontent: ['No true asset ownership, high fees', 'CELIA-powered rewards & in-game purchases']
+                datacontent: ['No true asset ownership, high fees', 'Minenu-powered rewards & in-game purchases']
             }, {
                 dataname: 'Developer Monetization',
                 datacontent: ['High platform fees, funding issues', 'Mini Apps, direct revenue, funding']
             }
         ],
-        currentbottomcontent: 'By solving these critical problems, Celia is redefining Web3 finance, gaming, and app development, making it easier for users, gamers, and developers to transact, earn, and build without restrictions.'
+        currentbottomcontent: 'By solving these critical problems, Minenu is redefining Web3 finance, gaming, and app development, making it easier for users, gamers, and developers to transact, earn, and build without restrictions.'
     },
     {
         id: 7,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Need for a Decentralized Solution',
         title: 'Need for a Decentralized Solution',
         content: 'Exploring the critical challenges in digital transactions, gaming, and app development that demand a new, blockchain-powered approach.',
         decentralizedsubtitle: 'The Need for an Accessible, Decentralized Web3 Solution',
         decentralizedcontent1: 'As the world increasingly moves toward digital transactions, gaming economies, and decentralized applications, the need for an accessible, low-cost, and user-friendly Web3 solution is more urgent than ever. Traditional platforms are expensive, centralized, and restrictive, making it difficult for users, gamers, and developers to fully participate in the digital economy.',
-        decentralizedcontent2: 'Celia provides a borderless, decentralized ecosystem where users can send, receive, stake, game, and build freely—without the restrictions of traditional financial systems or app store limitations.',
+        decentralizedcontent2: 'Minenu provides a borderless, decentralized ecosystem where users can send, receive, stake, game, and build freely—without the restrictions of traditional financial systems or app store limitations.',
         decentralizedsubtitle1: '1. Accessibility for Users: Making Digital Transactions Seamless',
         decentralizedcontent3: 'Many users are excluded from digital payments and blockchain-based services due to high fees, banking restrictions, and complicated processes.',
         decentralizedcontent3Items: ['Banking restrictions prevent many users from accessing global transactions.', 'High transaction fees make digital payments costly for everyday use.', 'Slow processing times in traditional finance create unnecessary delays.', 'Complex crypto wallets and blockchain interfaces discourage new users.'],
-        decentralizedcontent4: 'Celia provides a simple, intuitive solution where anyone can send, receive, withdraw, and stake CELIA with minimal fees and instant transfers.',
-        decentralizedcontent4Items: ['Users don’t need banking approvals—Celia is open to anyone with an internet connection.', 'Gifting and peer-to-peer transactions make digital assets more practical for everyday use.'],
-        decentralizedcontent5: 'By removing barriers, Celia makes blockchain-based payments as easy as using cash or a mobile wallet.',
+        decentralizedcontent4: 'Minenu provides a simple, intuitive solution where anyone can send, receive, withdraw, and stake Minenu with minimal fees and instant transfers.',
+        decentralizedcontent4Items: ['Users don’t need banking approvals—Minenu is open to anyone with an internet connection.', 'Gifting and peer-to-peer transactions make digital assets more practical for everyday use.'],
+        decentralizedcontent5: 'By removing barriers, Minenu makes blockchain-based payments as easy as using cash or a mobile wallet.',
         decentralizedsubtitle2: '2. A Sustainable Play-to-Earn & Gaming Economy',
         decentralizedcontent6: 'The gaming industry is undergoing massive changes, with players demanding real value for their time and in-game assets. However, most gaming platforms and Play-to-Earn (P2E) models fail to provide sustainable rewards or true ownership.',
         decentralizedcontent6Items: ['Players don’t own in-game assets—companies control them.', 'Gaming rewards are often unsustainable, leading to token crashes.', 'Developers lose up to 30% of revenue in traditional app stores.', 'Cross-game economies are limited—items and assets are locked in individual games.'],
-        decentralizedcontent7: 'Celia enables true ownership of in-game assets, allowing players to buy, sell, and trade items using CELIA.',
-        decentralizedcontent7Items: ['Developers can integrate CELIA as a Play-to-Earn currency, ensuring long-term economic stability.', 'Celia’s gaming ecosystem supports seamless, low-fee transactions, making Play-to-Earn more profitable for both players and game studios.', 'Players can move assets across different games, breaking traditional platform restrictions.'],
-        decentralizedcontent8: 'By decentralizing in-game assets and gaming economies, Celia creates a new, fair model where players and developers both benefit.',
+        decentralizedcontent7: 'Minenu enables true ownership of in-game assets, allowing players to buy, sell, and trade items using Minenu.',
+        decentralizedcontent7Items: ['Developers can integrate Minenu as a Play-to-Earn currency, ensuring long-term economic stability.', 'Minenu’s gaming ecosystem supports seamless, low-fee transactions, making Play-to-Earn more profitable for both players and game studios.', 'Players can move assets across different games, breaking traditional platform restrictions.'],
+        decentralizedcontent8: 'By decentralizing in-game assets and gaming economies, Minenu creates a new, fair model where players and developers both benefit.',
         decentralizedsubtitle3: '3. A Fair Ecosystem for Developers & Mini App Builders',
         decentralizedcontent9: 'Developers face major obstacles when trying to monetize apps, games, and blockchain-based projects due to high fees, restrictive platform rules, and lack of funding.',
         decentralizedcontent9Items: ['Traditional platforms take up to 30% of revenue from developers.', 'Developers must follow restrictive app store policies, limiting innovation.', 'Most projects struggle to get funding, exposure, and users.', 'Web3 integration is complex and expensive for independent developers.'],
-        decentralizedcontent10: 'Celia’s Mini App program allows developers to launch without fees, keeping 100% of their earnings.',
-        decentralizedcontent10Items: ['Developers can receive funding directly from the Celia Group for standout projects.', 'Apps and games built on Celia instantly gain exposure to millions of users.', 'Seamless CELIA integration makes monetization simple for developers.'],
-        decentralizedcontent11: 'By supporting developers with funding, tools, and a ready-made user base, Celia removes barriers to innovation and helps bring the next generation of Web3 applications to life.',
-        decentralizedsubtitle4: 'Why Celia is the Solution',
+        decentralizedcontent10: 'Minenu’s Mini App program allows developers to launch without fees, keeping 100% of their earnings.',
+        decentralizedcontent10Items: ['Developers can receive funding directly from the Minenu Group for standout projects.', 'Apps and games built on Minenu instantly gain exposure to millions of users.', 'Seamless Minenu integration makes monetization simple for developers.'],
+        decentralizedcontent11: 'By supporting developers with funding, tools, and a ready-made user base, Minenu removes barriers to innovation and helps bring the next generation of Web3 applications to life.',
+        decentralizedsubtitle4: 'Why Minenu is the Solution',
         decentralizedcontent12: 'The problems in traditional finance, gaming, and app development demand a new, decentralized approach that:',
         decentralizedcontent12Items: ['Gives users complete control over digital transactions and payments', 'Enables Play-to-Earn gaming with sustainable rewards', 'Allows developers to build apps, get funded, and reach users easily', 'Removes unnecessary middlemen and platform fees'],
-        decentralizedcontent13: 'Celia provides an accessible, decentralized Web3 ecosystem where everyone—users, gamers, and developers—can benefit from blockchain technology without limitations.'
+        decentralizedcontent13: 'Minenu provides an accessible, decentralized Web3 ecosystem where everyone—users, gamers, and developers—can benefit from blockchain technology without limitations.'
     },
     {
         id: 8,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Products',
         title: 'Products',
-        content: 'Celia is a next-generation Web3 ecosystem designed to make digital assets easy to use, send, earn, and build with. Powered by Celia Token (CELIA), the platform is more than just a cryptocurrency—it’s an open network for users, gamers, and developers to interact with blockchain in a seamless way.',
-        productContent1: 'At its core, Celia will build some product cut accross:',
+        content: 'Minenu is a next-generation Web3 ecosystem designed to make digital assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it’s an open network for users, gamers, and developers to interact with blockchain in a seamless way.',
+        productContent1: 'At its core, Minenu will build some product cut accross:',
         productItems: [
             {
-                productTitle: 'Celia Circle',
-                productDescription: 'A community-driven news sharing platform powered by the Celia Token, designed to enable users to contribute, share, and engage with the latest news and updates within the ecosystem. This platform fosters an open, decentralized environment where individuals can actively participate in content creation and curation, all while leveraging the power of the Celia Token for enhanced engagement, rewards, and governance. By utilizing blockchain technology, it ensures transparency, security, and trust in the sharing and dissemination of information.'
+                productTitle: 'Minenu Circle',
+                productDescription: 'A community-driven news sharing platform powered by the Minenu Token, designed to enable users to contribute, share, and engage with the latest news and updates within the ecosystem. This platform fosters an open, decentralized environment where individuals can actively participate in content creation and curation, all while leveraging the power of the Minenu Token for enhanced engagement, rewards, and governance. By utilizing blockchain technology, it ensures transparency, security, and trust in the sharing and dissemination of information.'
             },
             {
-                productTitle: 'Celia Academy',
+                productTitle: 'Minenu Academy',
                 productDescription: 'A “Learn to Earn” platform designed to provide users with the opportunity to acquire valuable cryptocurrency knowledge directly from professional traders. This platform combines education with incentives, allowing users to engage in structured learning experiences while earning rewards for their progress. By offering expert insights, practical strategies, and real-world trading tips, it empowers users to enhance their skills and understanding of the crypto market, all within a dynamic, rewarding, and interactive environment.'
             },
             {
-                productTitle: 'Celia Blockchain',
-                productDescription: 'Celia Blockchain is a high-performance, scalable, and decentralized Layer-1 blockchain platform designed to revolutionize digital ecosystems. It focuses on enhancing security, transparency, and efficiency, empowering users and developers alike.'
+                productTitle: 'Minenu Blockchain',
+                productDescription: 'Minenu Blockchain is a high-performance, scalable, and decentralized Layer-1 blockchain platform designed to revolutionize digital ecosystems. It focuses on enhancing security, transparency, and efficiency, empowering users and developers alike.'
             },
             {
                 productTitle: 'Crypto Swap',
-                productDescription: 'A sophisticated feature integrated within the Celia Wallet infrastructure, meticulously designed to facilitate the seamless and efficient exchange of cryptocurrencies. This functionality empowers users with the ability to swiftly and securely swap digital assets, enhancing their overall experience while maintaining the highest standards of security and ease of use.'
+                productDescription: 'A sophisticated feature integrated within the Minenu Wallet infrastructure, meticulously designed to facilitate the seamless and efficient exchange of cryptocurrencies. This functionality empowers users with the ability to swiftly and securely swap digital assets, enhancing their overall experience while maintaining the highest standards of security and ease of use.'
             },
             {
                 productTitle: 'Crypto Onramp',
-                productDescription: 'A key component of the Celia Pay infrastructure, specifically developed to provide a seamless and efficient cryptocurrency onramp service. This feature is designed to enable users to easily convert traditional fiat currencies into digital assets, ensuring a smooth and secure entry into the world of cryptocurrency. By leveraging advanced technology, it simplifies the onboarding process, offering users a convenient, user-friendly, and reliable gateway to the crypto ecosystem.'
+                productDescription: 'A key component of the Minenu Pay infrastructure, specifically developed to provide a seamless and efficient cryptocurrency onramp service. This feature is designed to enable users to easily convert traditional fiat currencies into digital assets, ensuring a smooth and secure entry into the world of cryptocurrency. By leveraging advanced technology, it simplifies the onboarding process, offering users a convenient, user-friendly, and reliable gateway to the crypto ecosystem.'
             },
             {
                 productTitle: 'Crypto Offramp',
-                productDescription: 'A vital component of the Celia Pay infrastructure, expertly developed to offer a seamless and efficient cryptocurrency offramp service. This feature enables users to effortlessly convert their digital assets into traditional fiat currencies, ensuring a smooth and secure transition out of the cryptocurrency ecosystem. With a focus on security, convenience, and reliability, it provides users with an intuitive and trustworthy solution for managing their crypto-to-fiat transactions.'
+                productDescription: 'A vital component of the Minenu Pay infrastructure, expertly developed to offer a seamless and efficient cryptocurrency offramp service. This feature enables users to effortlessly convert their digital assets into traditional fiat currencies, ensuring a smooth and secure transition out of the cryptocurrency ecosystem. With a focus on security, convenience, and reliability, it provides users with an intuitive and trustworthy solution for managing their crypto-to-fiat transactions.'
             },
             {
                 productTitle: 'Mini Apps & Developer Innovation',
-                productDescription: 'Developers can build applications within the Celia ecosystem, fully powered by CELIA.'
+                productDescription: 'Developers can build applications within the Minenu ecosystem, fully powered by Minenu.'
             }
         ],
-        closingContent: 'With Celia, Web3 becomes simple, accessible, and rewarding for everyone. Whether you want to transact, build, or play, Celia is the key to unlocking the full potential of digital assets.'
+        closingContent: 'With Minenu, Web3 becomes simple, accessible, and rewarding for everyone. Whether you want to transact, build, or play, Minenu is the key to unlocking the full potential of digital assets.'
     },
     {
         id: 9,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Tokenomics',
         title: 'Tokenomics',
-        content: 'Celia total token supply is fixed at 800,000,000 CELIA',
+        content: 'Minenu total token supply is fixed at 800,000,000 Minenu',
         tokenDistribution: [
             {
                 participant: 'Community (Mining, Airdrop, Staking etc)',
@@ -238,7 +238,7 @@ const whitePaperData = [
                 amount: '84,000,000'
             }
         ],
-        distributionScheduleTitle: '350,000,000 CELIA token will be distributed in the next 5 years in this schedule:',
+        distributionScheduleTitle: '350,000,000 Minenu token will be distributed in the next 5 years in this schedule:',
         distributionSchedule: [
             { month: 'April 2025', allocation: '11,475,409', cumulativeTotal: '11,475,409' },
             { month: 'May 2025', allocation: '11,284,153', cumulativeTotal: '22,759,562' },
@@ -299,11 +299,11 @@ const whitePaperData = [
     },
     {
         id: 10,
-        typeIntro: 'Celia Overview',
+        typeIntro: 'Minenu Overview',
         heading: 'Legal Disclaimer',
         title: 'Legal Disclaimer',
-        legalDisclaimer1: 'This whitepaper is intended solely to provide information to the community. It does not constitute an offer to sell or a solicitation to purchase any tokens. Nothing in this whitepaper should be interpreted as a guarantee or assurance regarding the development of the Celia business or the tokens, nor should it be considered as a promise concerning the tokens’ utility or value.',
-        legalDisclaimer2: 'The content of this whitepaper outlines current plans, which are subject to change. The success of these plans will depend on numerous factors beyond Celia’s control, including market dynamics and conditions within the gaming and cryptocurrency industries, among others.'
+        legalDisclaimer1: 'This whitepaper is intended solely to provide information to the community. It does not constitute an offer to sell or a solicitation to purchase any tokens. Nothing in this whitepaper should be interpreted as a guarantee or assurance regarding the development of the Minenu business or the tokens, nor should it be considered as a promise concerning the tokens’ utility or value.',
+        legalDisclaimer2: 'The content of this whitepaper outlines current plans, which are subject to change. The success of these plans will depend on numerous factors beyond Minenu’s control, including market dynamics and conditions within the gaming and cryptocurrency industries, among others.'
     }
 ]
 
@@ -367,10 +367,10 @@ const WhitePaperHero = () => {
                                     )}
                                 </div>
                             ))}
-                            <p className="font-semibold text-[#dddddd] p-2 mt-5">Celia Overview</p>
+                            <p className="font-semibold text-[#dddddd] p-2 mt-5">Minenu Overview</p>
                             {whitePaperData.map((whitePaper, index) => (
                                 <React.Fragment key={whitePaper.id}>
-                                    {whitePaper.typeIntro === 'Celia Overview' && (
+                                    {whitePaper.typeIntro === 'Minenu Overview' && (
                                         <div key={whitePaper.id} onClick={() => {setActive(index); setActiveSideNav(false)}} className={`rounded-xl text-sm text-[#929292] p-2 hover:bg-[#272728] hover:text-[#d9d9d9] cursor-pointer ${active === index ? 'bg-[#272728] text-white' : ''}`}>
                                             <p>{whitePaper.heading}</p>
                                         </div>
@@ -448,21 +448,21 @@ const WhitePaperHero = () => {
                 <div className="md:w-[50%] h-[70rem] mx-auto">
                     {whitePaperData.map((whitePaper, index) => (
                         <div key={whitePaper.id}>
-                            {whitePaper.title === 'What is Celia?' && active === index && (
+                            {whitePaper.title === 'What is Minenu?' && active === index && (
                                 <div key={whitePaper.id} className={`flex-col space-y-8`}>
                                     <div className="flex flex-col space-y-2">
                                         <p className="font-semibold text-white">{whitePaper.typeIntro}</p>
                                         <h6 className='text-3xl font-bold text-[#dddddd]'>{whitePaper.title}</h6>
                                         <p className='text-[#8a8a8a] text-lg'>{whitePaper.content}</p>
                                     </div>
-                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.celiacontent2}</p>
-                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.celiacontent3}</p>
+                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.Minenucontent2}</p>
+                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.Minenucontent3}</p>
                                     <ul className='flex flex-col space-y-3'>
-                                        {whitePaper.celiacontent3Item && whitePaper.celiacontent3Item.map((content, index) => (
+                                        {whitePaper.Minenucontent3Item && whitePaper.Minenucontent3Item.map((content, index) => (
                                             <p key={index} className='text-[#8a8a8a] text-lg'>{content}</p>
                                         ))}
                                     </ul>
-                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.celiacontent4}</p>
+                                    <p className='text-[#8a8a8a] text-lg'>{whitePaper.Minenucontent4}</p>
                                 </div>
                             )}
                             {whitePaper.title === 'Vision & Mission' && active === index && (

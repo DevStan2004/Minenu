@@ -12,15 +12,15 @@ const page = () => {
                 <div className="my-3 border-b py-2">
                     <h3 className='text-2xl text-[#101828] font-semibold'>I Introduction</h3>
                 </div>
-                <p className="text-[#4a5565]">Welcome to Celia. Your privacy is important to us. This Privacy Policy outlines how we collect, use, store, and protect your personal data when you interact with our services, including Celia Wallet and Celia Pay. By using our services, you agree to the terms of this Privacy Policy.</p>
-                <p className="text-[#4a5565]">At Celia, we are committed to maintaining the highest standards of data protection. We recognize the importance of your personal information and are dedicated to handling it responsibly and transparently. This Privacy Policy is designed to help you understand:</p>
+                <p className="text-[#4a5565]">Welcome to Minenu. Your privacy is important to us. This Privacy Policy outlines how we collect, use, store, and protect your personal data when you interact with our services, including Minenu Wallet and Minenu Pay. By using our services, you agree to the terms of this Privacy Policy.</p>
+                <p className="text-[#4a5565]">At Minenu, we are committed to maintaining the highest standards of data protection. We recognize the importance of your personal information and are dedicated to handling it responsibly and transparently. This Privacy Policy is designed to help you understand:</p>
                 <ul className='list-disc mx-10'>
                     <li className="text-[#4a5565]">What information we collect about you.</li>
                     <li className="text-[#4a5565]">How we use and share your information.</li>
                     <li className="text-[#4a5565]">Your rights regarding your personal data.</li>
                     <li className="text-[#4a5565]">The security measures we implement to protect your information.</li>
                 </ul>
-                <p className="text-[#4a5565]">We encourage you to read this Privacy Policy carefully. If you have any questions or concerns, please contact us at support@celia.finance.</p>
+                <p className="text-[#4a5565]">We encourage you to read this Privacy Policy carefully. If you have any questions or concerns, please contact us at support@Minenu.finance.</p>
             </div>
             <div className="bg-white shadow rounded-lg w-full p-4 flex flex-col space-y-4">
                 <div className="my-3 border-b py-2">
@@ -68,9 +68,9 @@ const page = () => {
                 <div className="my-3 border-b py-2">
                     <h3 className='text-2xl text-[#101828] font-semibold'>VI. Changes to This Policy</h3>
                 </div>
-                <p className="text-[#4a5565]">If you have any questions about this Privacy Policy, please contact us at support@celia.finance</p>
+                <p className="text-[#4a5565]">If you have any questions about this Privacy Policy, please contact us at support@Minenu.finance</p>
             </div>
-            <div className="my-5 text-center text-sm text-[#8a8a8a]">2024 Celia. All Rights Reserved</div>
+            <div className="my-5 text-center text-sm text-[#8a8a8a]">2024 Minenu. All Rights Reserved</div>
         </div>
     </div>
   )

@@ -74,8 +74,8 @@ const Features = () => {
                 </div>
             </div>
             <div className="flex flex-col relative z-10">
-              <h6 className="font-semibold text-black text-2xl">Celia Circle</h6>
-              <p className='text-[#191919] text-sm'>A community-driven news sharing platform powered by the Celia Token, designed to enable users to contribute, share, and engage with the latest news and updates within the cosystem.</p>
+              <h6 className="font-semibold text-black text-2xl">Minenu Circle</h6>
+              <p className='text-[#191919] text-sm'>A community-driven news sharing platform powered by the Minenu Token, designed to enable users to contribute, share, and engage with the latest news and updates within the cosystem.</p>
             </div>
           </div>
           <div className="shadow-lg rounded-xl h-[25rem] p-5 flex items-end w-full md:w-[45%] relative bg-gradient-to-t from-white to-[#f9fafb]">
@@ -103,7 +103,7 @@ const Features = () => {
             <div className="rounded-md bg-[#191919] shadow-[inset_0_0_10px_rgba(255,255,255,0.4)] text-white py-1.5 px-5 absolute top-1/5 right-10 hover:bg-blue-900 hover:-translate-x-1.5 transition-transform transition-bg duration-500 hover:cursor-none">Kishore</div>
             <div className="flex flex-col">
               <h6 className="font-semibold text-black text-2xl">Mini Apps & Developer Innovation</h6>
-              <p className='text-[#191919] text-sm'>Developers can build applications within the Celia ecosystem, fully powered by CELIA</p>
+              <p className='text-[#191919] text-sm'>Developers can build applications within the Minenu ecosystem, fully powered by Minenu</p>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ const Features = () => {
                 <div className="flex justify-center items-center bg-white w-[18rem] h-[18rem] rounded-full">
                   <div className="flex justify-center items-center bg-[#fea95e] w-[12rem] h-[12rem] rounded-full">
                     <div className="flex justify-center items-center bg-white w-[6rem] h-[6rem] rounded-full">
-                      <span className="text-xl font-bold">CELIA</span>
+                      <span className="text-xl font-bold">Minenu</span>
                     </div>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ const Features = () => {
             </div>
             <div className="flex flex-col">
               <h6 className="text-black text-2xl">Blockchain, On & Off Rams</h6>
-              <p className='text-[#191919] text-sm'>Celia offers a scalable Layer-1 blockchain platform with integrated features——including Crypto Swap, Onramp, and Offramp——that enable secure, seamless, and user-friendly management and exchange between cryptocurrencies and fiat currencies.</p>
+              <p className='text-[#191919] text-sm'>Minenu offers a scalable Layer-1 blockchain platform with integrated features——including Crypto Swap, Onramp, and Offramp——that enable secure, seamless, and user-friendly management and exchange between cryptocurrencies and fiat currencies.</p>
             </div>
           </div>
           <div className="shadow-lg rounded-xl md:h-[25rem] h-[28rem] p-5 flex items-end w-full md:w-[70%] relative bg-[#f9fafb]">
@@ -199,7 +199,7 @@ const Features = () => {
                             <ArrowLeft size='1rem' className='text-[#e4e4e4] group-hover:text-black transition-text duration-200' />
                         </div>
                         <div className="flex flex-col items-center w-full my-auto">
-                            <h6 className='font-bold md:text-2xl'>CELIA</h6>
+                            <h6 className='font-bold md:text-2xl'>Minenu</h6>
                             <p className='text-sm text-[#bebcbc]'>Join the Academy</p>
                         </div>
                     </div>
@@ -207,7 +207,7 @@ const Features = () => {
               </div>
             </div>
             <div className="flex flex-col">
-              <h6 className="text-black text-2xl">Celia Academy</h6>
+              <h6 className="text-black text-2xl">Minenu Academy</h6>
               <p className='text-[#191919] text-sm'>A "Learn to Earn" platform designed to provide users with the opportunity to acquire valluable cryptocurrency knowledge directly from professional traders.</p>
             </div>
           </div>

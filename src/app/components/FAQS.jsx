@@ -12,23 +12,23 @@ const FAQS = () => {
   const itemData = [
     {
       id: '1',
-      question: 'Why should I choose the Celia platform for my Web3 needs?',
-      answer: 'Celia offers cutting-edge Web3 technology, ensuring seamless operation and secure financial transactions tailored to your need.'
+      question: 'Why should I choose the Minenu platform for my Web3 needs?',
+      answer: 'Minenu offers cutting-edge Web3 technology, ensuring seamless operation and secure financial transactions tailored to your need.'
     },
     {
       id: '2',
-      question: 'How do I get started with Celia?',
-      answer: 'Visit the Celia website or download the Celia App from your App store and sign up to get started.'
+      question: 'How do I get started with Minenu?',
+      answer: 'Visit the Minenu website or download the Minenu App from your App store and sign up to get started.'
     },
     {
       id: '3',
-      question: 'What cryptocurrencies does Celia support?',
-      answer: 'Celia supports the Celia token as well as BNB and other BNB enabled cryptocurrencies.'
+      question: 'What cryptocurrencies does Minenu support?',
+      answer: 'Minenu supports the Minenu token as well as BNB and other BNB enabled cryptocurrencies.'
     },
     {
       id: '4',
-      question: 'What is Celia?',
-      answer: 'Celia is a next-generation Web3 ecosystem desined to make digital assets easy to use, send, earn, and build with. Powered by Celia Token (CELIA), the platform is more than just a cryptocurrency—it\'s an open network for users, gamers, and developers to interact with bblock chain in a seamless way.'
+      question: 'What is Minenu?',
+      answer: 'Minenu is a next-generation Web3 ecosystem desined to make digital assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it\'s an open network for users, gamers, and developers to interact with bblock chain in a seamless way.'
     },
   ];
 

@@ -1,12 +1,9 @@
 @import "tailwindcss";
-
-body, html{
+html{
   font-family: var(--font-exo2);
-  height: 100vh;
 }
-
-body {
-  overflow-x: hidden;
+body{
+  height: 100vh;
 }
 
 .rotation{
