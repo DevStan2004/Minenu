@@ -354,7 +354,7 @@ const WhitePaperHero = () => {
                 <div className={`md:hidden block fixed z-[102] left-0 top-0 h-screen w-full ${activeSideNav ? 'backdrop-blur-sm flex justify-end p-3' : 'backdrop-blur-none hidden'}`}>
                     <X className='text-white cursor-pointer' strokeWidth={1} onClick={() => setActiveSideNav(false)} />
                 </div>
-                <div className={`flex flex-col space-y-2 md:w-[15rem] w-[20rem] h-full fixed md:top-36 top-0 z-[103] md:left-6 left-0 transition-translate duration-200 md:bg-transparent bg-[#0e0e10] px-2 ${activeSideNav ? '-translate-x-0' : 'md:-translate-x-0 -translate-x-80'}`}>
+                <div className={`flex flex-col space-y-2 md:w-[15rem] w-[20rem] h-full fixed md:top-36 top-32 z-[103] md:left-6 left-0 transition-translate duration-200 md:bg-transparent bg-[#0e0e10] px-2 ${activeSideNav ? '-translate-x-0' : 'md:-translate-x-0 -translate-x-80'}`}>
                     <p className="font-semibold text-[#dddddd] p-2">Introduction</p>
                     <div className="flex flex-col">
                         <div className="flex flex-col">
