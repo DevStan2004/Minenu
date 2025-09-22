@@ -5,7 +5,7 @@ import { SplitText, ScrollTrigger } from 'gsap/all'
 import gsap from 'gsap'
 import Image from 'next/image'
 import Link from 'next/link'
-import celiaScreen from '@/images/celiaScreen.png'
+import CeliaScreen from '@/images/CeliaScreen.png'
 import milestoneScreen from '@/images/milestoneScreen.jpg'
 import verifyScreen from '@/images/verifyScreen.jpg'
 import android from '@/images/android.png'
@@ -113,7 +113,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="flex justify-between items-center text-white w-full">
-                    <Image src={celiaScreen} alt='Minenu screen' width={1000} height={1000} className='w-full h-full' />
+                    <Image src={CeliaScreen} alt='Minenu screen' width={1000} height={1000} className='w-full h-full' />
                 </div>
             </div>
             <div className="absolute z-0 rounded-[3rem] md:w-[18rem] w-[15rem] left-60 bg-[#171717] substake p-5 flex-col md:flex hidden top-80 rotate-25 animate-verify">
