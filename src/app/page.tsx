@@ -10,7 +10,7 @@ import FAQS from '@/app/components/FAQS'
 import Connect from '@/app/components/Connect'
 import Footer from '@/app/components/Footer'
 import SocialsNav from '@/app/components/SocialsNav'
-import Lenis from '@studio-freight/lenis';
+import Lenis from 'lenis';
 import gsap from 'gsap';
 
 export default function Home() {

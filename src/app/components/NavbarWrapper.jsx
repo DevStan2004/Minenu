@@ -1,7 +1,8 @@
 'use client'
 import React, { useState, useEffect, useRef } from 'react'
 import Navbar from '@/app/components/Navbar'
-import Lenis from '@studio-freight/lenis';
+import Lenis from 'lenis'
+;
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
