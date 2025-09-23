@@ -2,7 +2,7 @@
 import React, {useEffect, useRef, useState} from 'react'
 import { ChevronRight, EllipsisVertical, Menu } from 'lucide-react'
 import Image from 'next/image'
-import whitepaper from '@/images/whitepaper.svg'
+import whitepaper from '@/images/minenuLogo.png'
 import { Search, FileText, X } from 'lucide-react'
 
 const WhitePaperNav = ({indexConnectedData, sideNavProp, setSideNavProp, collectedData, setCollectedData, setCollectIndex, collectIndex}) => {
@@ -48,7 +48,7 @@ const WhitePaperNav = ({indexConnectedData, sideNavProp, setSideNavProp, collect
   return (
     <div className={`flex flex-col space-x-3 md:px-10 px-2 w-full bg-[#070709a4] border-b border-[#f9fafb16] z-[999] fixed ${mobileActive ? 'backdrop-blur-none' : 'backdrop-blur-sm'}`}>
         <div className="flex justify-between items-center py-4 border-b border-[#f9fafb16] w-full">
-            <Image src={whitepaper} width={1000} height={1000} alt='whitepaper' className='w-43' />
+            <Image src={whitepaper} width={500} height={500} alt='whitepaper' className='w-10' />
             <div className="flex gap-2 items-center md:hidden">
               <Search onClick={() => setMobileActive(true)} className='flex-shrink-0 text-[#8a8a8a]' strokeWidth={1} size='1.2rem' />
               <EllipsisVertical onClick={() => setEllipsisActive(!ellipsisActive)} className='flex-shrink-0 md:hidden block text-[#8a8a8a]' strokeWidth={1} size='1.2rem' />
