@@ -41,7 +41,7 @@ const Features = () => {
     <section className="flex justify-center items-center md:my-30 features" id='features'>
       <div className='scale-200 flex flex-col space-y-5 hero-scale'>
          <div className="flex justify-center flex-col md:space-y-5 mb-9 md:p-0 p-2">
-          <h3 className='text-center md:text-6xl text-4xl md:mx-0 mx-5 font-bold'>Features so good you <span className="text-[#ff2815]">Love us</span></h3>
+          <h3 className='text-center md:text-6xl text-4xl md:mx-0 mx-5 font-bold'>Features so good you <span className="text-[#ea922c]">Love us</span></h3>
           <p className='text-center md:px-0 px-5'>Packed with thousands of features, we are going to show you an overview!</p>
         </div>
         <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">

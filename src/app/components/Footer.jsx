@@ -10,7 +10,7 @@ import minenuLogo from '@/images/minenuLogo.png'
 const Footer = () => {
     const pathname = usePathname();
   return (
-    <div className={`flex-col justify-between md:w-[90%] md:rounded-3xl bg-[#f9fafb] md:px-10 px-5 md:py-20 mx-auto my-20 ${pathname === '/learn-more' || pathname === '/whitepaper' ? 'hidden' : 'flex'}`}>
+    <div className={`flex-col justify-between md:w-[90%] md:rounded-3xl bg-[#000] md:px-10 px-5 md:py-20 mx-auto my-20 ${pathname === '/learn-more' || pathname === '/whitepaper' ? 'hidden' : 'flex'}`}>
         <div className="flex md:flex-row flex-col gap-10 justify-between w-full">
             <div className="flex flex-col space-y-5 md:w-1/3">
                 <h6 className='text-2xl font-bold'>Minenu</h6>
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="flex space-x-15 justify-center md:mt-20 md:my-0 my-5 items-center ">
-            <p className="text-[15px]">minenu.ltd</p>
+            <p className="text-[15px]">minenu</p>
             <div className="flex space-x-5 justify-center">
                 <Image src={minenuLogo} width={1000} height={1000} alt='minenu' className='md:w-15 w-10' />
             </div>

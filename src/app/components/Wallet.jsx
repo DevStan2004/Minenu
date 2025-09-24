@@ -26,7 +26,7 @@ const Wallet = () => {
             <Image src={verifiedicon} width={1000} height={1000} alt='verified icon' className='w-6 h-6' />
         </div>
         <p className="font-light">Innovating the Future of Web3 for Everyone 🌍 Products: @MinenuAcademy @MinenuBlockchain @MinenuWallet @MinenuPayApp | Help: @Minenu_HelpDesk</p>
-        <div className="rounded-md border border-[#e4e4e7] text-[13px] bg-[#f4f4f5]">https://Minenu.ltd</div>
+        <div className="rounded-md border border-[#e4e4e7] text-[13px] bg-[#f4f4f5]">https://Minenu.com</div>
       </div>
       <div className="flex justify-center items center p-5 w-full">
         <div className="flex items-center md:space-x-5 space-x-1">

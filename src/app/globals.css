@@ -2,8 +2,11 @@
 html{
   font-family: var(--font-exo2);
 }
+
 body{
   height: 100vh;
+  background-color: #0f0f0f;
+  color: white;
 }
 
 .rotation{

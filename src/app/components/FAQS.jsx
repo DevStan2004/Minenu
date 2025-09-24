@@ -28,7 +28,7 @@ const FAQS = () => {
     {
       id: '4',
       question: 'What is Minenu?',
-      answer: 'Minenu is a next-generation Web3 ecosystem desined to make digital assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it\'s an open network for users, gamers, and developers to interact with bblock chain in a seamless way.'
+      answer: 'Minenu is a next-generation Web3 ecosystem desined to make digital assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it\'s an open network for users, gamers, and developers to interact with block chain in a seamless way.'
     },
   ];
 
@@ -51,8 +51,8 @@ const FAQS = () => {
 
   return (
     <div className='flex flex-col space-y-10 md:mt-40 mt-10 mb-20 items-center md:w-[70%] p-2 mx-auto scrubcontainer opacity-0 translate-y-40'>
-      <h5 className='text-4xl text-[#191919] font-semibold'><span className='text-[#ff2815]'>Asked</span> Questions</h5>
-      <div className="flex flex-col space-y-5 bg-[#e4e4e4] rounded-xl md:p-5 shadow-lg w-full">
+      <h5 className='text-4xl text-[#fff] font-semibold'><span className='text-[#ea922c]'>Asked</span> Questions</h5>
+      <div className="flex flex-col space-y-5 bg-[#000] rounded-xl md:p-5 shadow-lg w-full">
         {itemData.map((item) => (
           <FAQContents key={item.id} accordionProp={accordion} setAccordionProp={setAccordion} item={item} />
         ))}
