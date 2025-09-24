@@ -2,7 +2,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import leanMoreLogo from '@/images/leanMoreLogo.jpg'
+import leanMoreLogo from '@/images/minenuLogo.png'
 
 const LearnMoreNav = ({active}) => {
   return (

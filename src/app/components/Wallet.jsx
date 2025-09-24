@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useState, useRef } from 'react'
-import leanMoreLogo from '@/images/leanMoreLogo.jpg'
+import leanMoreLogo from '@/images/minenuLogo.png'
 import leanMoreLogoGray from '@/images/leanMoreLogoGray.png'
 import leanMoreLogoGreen from '@/images/leanMoreLogoGreen.png'
 import leanMoreLogoOrange from '@/images/leanMoreLogoOrange.png'
