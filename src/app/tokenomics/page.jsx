@@ -8,7 +8,7 @@ const page = () => {
           {/* <p className='text-[#4a5565]'>Last Update: January 2024</p> */}
         </div>
         <div className="bg-white shadow rounded-lg w-full p-4 flex flex-col space-y-4">
-          <div className="w-[60vw] justify-center mx-auto my-3">
+          <div className="md:w-[60vw] justify-center mx-auto my-3">
             <h1 className="text-5xl text-[#101828] font-bold text-center mx-auto py-5">
               NUCLEUS CORE CHAIN TOKENOMICS
             </h1>
@@ -16,6 +16,9 @@ const page = () => {
               Nucleus Core Blockchain; powering the future of Mobile
               Decentralization
             </p>
+            <p className="text-[#000] py-4 text-[21px]">Nucleus Core Blockchain is a groundbreaking Web3 infrastructure designed to unlock the full potential of decentralized apps (dApps) on mobile...
+
+</p>
             <p className="text-[#000] py-4 text-[21px]">
               While it is essential to foster the growth of the project and make
               the Nucleus ecosystem widely accessible...
@@ -24,7 +27,7 @@ const page = () => {
               However, we have implemented a technology that helps the system
               takes records of your activity throughout this initial phase...
             </p>
-            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto pt-5">
               NUCLEUS PRE-MARKET
             </h1>
             <p className="text-[#000] py-4 text-[21px]">
@@ -39,19 +42,19 @@ const page = () => {
               Coins mined and earned during this phase are not yet
               transferable...
             </p>
-            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto pt-5">
               WHY THIS PHASE MATTERS?
             </h1>
             <p className="text-[#000] py-4 text-[21px]">
               This is more than mining, it’s about community building...{" "}
             </p>
-            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto pt-5">
               MAINNET SUPPLY
             </h1>
             <p className="text-[#000] py-4 text-[21px]">
               Supply fuels the growth of our ecosystem...
             </p>
-            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto pt-5">
               TOKEN DISTRIBUTION BREAKDOWN
             </h1>
             <ul className="list-disc mx-10">
@@ -65,7 +68,7 @@ const page = () => {
                 <b>ECOSYSTEM DEVELOPMENT: </b>(25%) – 95,000,000
               </li>
             </ul>
-            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto pt-5">
               MINING BREAKDOWN & REWARD REDUCTION (HALVING MODEL)
             </h1>
             <p className="text-[#000] py-4 text-[21px]">
@@ -185,7 +188,7 @@ const page = () => {
     </tbody>
   </table>
 </div>
-            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto pt-15">
               WHY THIS MATTERS?
             </h1>
             <ul className="list-disc mx-10">
@@ -202,7 +205,7 @@ const page = () => {
                 community and ecosystem can grow steadily
               </li>
             </ul>
-            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto py-5">
+            <h1 className="text-3xl text-[#101828] font-bold text-left mx-auto pt-5">
               NUCLEUS CORE BURNING MECHANISM
             </h1>
             <p className="text-[#000] py-4 text-[21px]">

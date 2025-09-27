@@ -49,10 +49,10 @@ const Features = () => {
         </div>
         <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
           <div className="shadow-lg rounded-xl w-full overflow-hidden md:w-[70%] h-[25rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
-              <Image src={opt1} className='w-full h-full absolute top-0 left-0' />
+              <Image src={opt1} className='w-full h-full absolute top-0 left-0'  alt='opt1'/>
           </div>
           <div className="shadow-lg rounded-xl h-[25rem] p-5 flex items-end w-full md:w-[45%] relative bg-gradient-to-t from-white to-[#f9fafb]">
-              <Image src={opt2} className='w-full h-full absolute top-0 left-0' />
+              <Image src={opt2} className='w-full h-full absolute top-0 left-0' alt='opt1' />
 
           </div>
         </div>

@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="flex flex-col space-y-3">
                         <Link href='/privacy'>Privacy Policy</Link>
                         <Link href='/terms'>Terms of Service</Link>
-                        <Link href='/blog'>Blog</Link>
+                        {/* <Link href='/blog'>Blog</Link> */}
                         <Link href='/whitepaper'>WhitePaper</Link>
                     </div>
                 </div>
@@ -50,7 +50,9 @@ const Footer = () => {
         <div className="flex space-x-15 justify-center md:mt-20 md:my-0 my-5 items-center ">
             <p className="text-[15px]">minenu</p>
             <div className="flex space-x-5 justify-center">
+                <Link href='/'>
                 <Image src={minenuLogo} width={1000} height={1000} alt='minenu' className='md:w-15 w-10' />
+                </Link>
             </div>
         </div>
     </div>

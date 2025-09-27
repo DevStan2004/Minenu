@@ -36,7 +36,7 @@ const TonInfo = () => {
         <div className="border-t border-gray-200 pt-4 pb-2 grid grid-cols-3 gap-4 text-center md:text-left">
           <div>
             <p className="text-gray-500 text-sm">Rank</p>
-            <h3 className="text-xl font-bold text-gray-900">#22</h3>
+            <h3 className="text-xl font-bold text-gray-900">#__</h3>
           </div>
           <div>
             <p className="text-gray-500 text-sm">Market Cap</p>
