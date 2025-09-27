@@ -29,7 +29,7 @@ const TonInfo = () => {
           </div>
           <div>
             <p className="text-gray-900 font-medium">Nucleus Core (NU)</p>
-            <h2 className="text-2xl font-bold text-gray-900">$2.72</h2>
+            <h2 className="text-2xl font-bold text-gray-900">$___</h2>
           </div>
         </div>
 
@@ -40,11 +40,11 @@ const TonInfo = () => {
           </div>
           <div>
             <p className="text-gray-500 text-sm">Market Cap</p>
-            <h3 className="text-xl font-bold text-gray-900">$6.93B</h3>
+            <h3 className="text-xl font-bold text-gray-900">$___</h3>
           </div>
           <div>
             <p className="text-gray-500 text-sm">Volume</p>
-            <h3 className="text-xl font-bold text-gray-900">$112.08M</h3>
+            <h3 className="text-xl font-bold text-gray-900">$___M</h3>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const TonInfo = () => {
           >
             CoinMarketCap
           </a>
-          . Last updated 26 minutes ago
+          . Last updated 0 minutes ago
         </div>
       </div>
     </section>
