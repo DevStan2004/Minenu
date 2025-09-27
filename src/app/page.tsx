@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <Feature /> */}
+      <Feature />
       <TonInfo />
       <Tonfeatures />
       <FAQS />

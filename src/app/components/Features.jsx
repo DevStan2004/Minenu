@@ -13,6 +13,9 @@ import background from '@/images/background.png'
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/all'
 import gsap from 'gsap'
+import opt1 from "@/images/Nucleus1.png"
+import opt2 from "@/images/Nucleus2.png"
+
 gsap.registerPlugin(ScrollTrigger)
 
 const Features = () => {
@@ -45,6 +48,15 @@ const Features = () => {
           <p className='text-center md:px-0 px-5'>Packed with thousands of features, we are going to show you an overview!</p>
         </div>
         <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
+          <div className="shadow-lg rounded-xl w-full overflow-hidden md:w-[70%] h-[25rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
+              <Image src={opt1} className='w-full h-full absolute top-0 left-0' />
+          </div>
+          <div className="shadow-lg rounded-xl h-[25rem] p-5 flex items-end w-full md:w-[45%] relative bg-gradient-to-t from-white to-[#f9fafb]">
+              <Image src={opt2} className='w-full h-full absolute top-0 left-0' />
+
+          </div>
+        </div>
+        {/* <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
           <div className="shadow-lg rounded-xl w-full overflow-hidden md:w-[70%] h-[25rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
             <div className="w-full h-full absolute top-0 left-0" style={{
                 backgroundImage: `url(${background.src})`,
@@ -211,7 +223,7 @@ const Features = () => {
               <p className='text-[#191919] text-sm'>A "Learn to Earn" platform designed to provide users with the opportunity to acquire valluable cryptocurrency knowledge directly from professional traders.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
