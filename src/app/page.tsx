@@ -12,7 +12,8 @@ import Footer from '@/app/components/Footer'
 import SocialsNav from '@/app/components/SocialsNav'
 import Lenis from 'lenis';
 import gsap from 'gsap';
-
+import Tonfeatures from '@/app/components/TonFeatures'
+import TonInfo from '@/app/components/TonInfo'
 export default function Home() {
 
   useEffect(() => {
@@ -87,8 +88,8 @@ export default function Home() {
       <Hero />
       <div className="flex flex-col mt-20">
         <div className="flex justify-center flex-col md:space-y-5 space-y-3 mb-9">
-          <h3 className='text-center text-4xl font-bold'>Standing Strong on <span className="text-[#ea922c]">2M+</span> Minenuns</h3>
-          <p className='text-center'>Together building the Minenu Ecosystem one step at a time</p>
+          <h3 className='text-center text-4xl font-bold'>Standing Strong on <span className="text-[#ea922c]">1M+</span> Nucleans</h3>
+          <p className='text-center'>Together building the next generation ecosystem.</p>
         </div>
         <div className="flex md:flex-row flex-col items-center md:w-[80%] mx-auto md:space-x-5 gap-2 w-full md:p-0 p-2">
           <div className="hover:shadow-xl border border-[#e4e4e4] overflow-hidden rounded-xl transition-shadow duration-100 flex-grow w-full">
@@ -100,9 +101,9 @@ export default function Home() {
               }}
             >
               <div className="flex flex-col space-x-5">
-                <h1 className="text-4xl text-[#ea922c] font-bold mb-4">+2M</h1>
+                <h1 className="text-4xl text-[#ea922c] font-bold mb-4">+1M</h1>
                 <p className="text-black text-sm">
-                  Global User base
+                  Global Users
                 </p>
               </div>
             </div>
@@ -116,7 +117,7 @@ export default function Home() {
               }}
             >
               <div className="flex flex-col space-x-5">
-                <h1 className="text-4xl font-bold mb-4 text-[#ea922c]">+89</h1>
+                <h1 className="text-4xl font-bold mb-4 text-[#ea922c]">+179</h1>
                 <p className="text-black text-sm">
                   Countries Presence
                 </p>
@@ -132,9 +133,9 @@ export default function Home() {
               }}
             >
               <div className="flex flex-col space-x-5">
-                <h1 className="text-4xl font-bold mb-4 text-[#ea922c]">+1.5M</h1>
+                <h1 className="text-4xl font-bold mb-4 text-[#ea922c]">500K</h1>
                 <p className="text-black text-sm">
-                  Android Downloads
+                   Downloads
                 </p>
               </div>
             </div>
@@ -157,7 +158,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Feature />
+      {/* <Feature /> */}
+      <TonInfo />
+      <Tonfeatures />
       <FAQS />
       <Connect />
       <SocialsNav icons={icons} />
