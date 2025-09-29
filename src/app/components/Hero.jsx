@@ -82,7 +82,7 @@ const Hero = () => {
           <h1 className="lg:text-8xl md:text-7xl text-[3rem] tracking-tight text-[#273243] font-semibold text-center title md:pb-3 md:-pb-0 -pb-3 "><span className="text-[#ea922c]">Chain</span></h1>
           <p className="text-center text-[#fff] md:px-10 md:py-5 py-3 px-6 text-image">First Native Blockchain for the Next Generation of Decentralized Apps. Start mining Nucleus Core cryptocurrency today with lightweight architecture built for mobile hardware.</p>
           <div className="flex space-x-4 justify-center items-center text-image">
-            <Link href='' className="lg:w-[25%] md:w-[22%] w-[30%]">
+            <Link href='https://play.google.com/store/apps/details?id=com.minenu.nu_app' className="lg:w-[25%] md:w-[22%] w-[30%]">
               <Image src={android} width={1000} height={1000} alt='andoid' className="w-full h-full" />
             </Link>
             <Link href='' className="lg:w-[25%] md:w-[22%] w-[30%]">

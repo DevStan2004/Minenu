@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react'
 import { Facebook, Instagram, Linkedin, Github,  } from 'lucide-react'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
+import Link from 'next/link'
 gsap.registerPlugin(ScrollTrigger, SplitText)
 
 
@@ -47,7 +48,7 @@ const Connect = () => {
             <div className="flex flex-col items-center text-center md:space-y-4 relative z-10 space-y-2">
                 <h5 className='lg:text-5xl md:text-3xl text-[1.2rem] font-bold'>Connect with the <span className='text-[#ff6f31]'>Nucleus</span></h5>
                 <h5 className='lg:text-5xl md:text-3xl text-[1.2rem] font-bold'>Community <span className='text-[#ff6f31]'>Everywhere</span></h5>
-                <button className='bg-gradient-to-t from-black to-[#a8a8a8] rounded-lg text-white font-semibold py-2 px-5'>Connect</button>
+                <Link href="https://linktr.ee/nucleus_core" className='bg-gradient-to-t from-black to-[#a8a8a8] rounded-lg text-white font-semibold py-2 px-5'>Connect</Link>
             </div>
             <div className="flex justify-center items-center -translate-x-120 opacity-0 p-2 translatethis bg-gradient-to-t from-white to-[#f9fafb] rounded-full dark:shadow-[inset_4px_20px_30px_#f1f1f1,0px_5px_16px_#f1f1f1]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-linkedin w-10 h-10 md:w-22 md:h-22 p-1 text-blue-700"><path d="M8 11v5"></path><path d="M8 8v.01"></path><path d="M12 16v-5"></path><path d="M16 16v-3a2 2 0 1 0 -4 0"></path><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path></svg>
