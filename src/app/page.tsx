@@ -108,6 +108,9 @@ export default function Home() {
   return (
     <div ref={containerRef}>
       <Hero />
+      <TonInfo />
+      
+      <Feature />
       <div className="flex flex-col mt-20">
         <div className="flex justify-center flex-col md:space-y-5 space-y-3 mb-9">
           <h3 className='text-center text-4xl font-bold'>Standing Strong on <span className="text-[#ea922c]">1M+</span> Nucleans</h3>
@@ -180,8 +183,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Feature />
-      <TonInfo />
       <Tonfeatures />
       <FAQS />
       <Connect />
