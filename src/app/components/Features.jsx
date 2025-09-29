@@ -35,6 +35,7 @@ const Features = () => {
       ease: 'power3.inOut'
     }).to('.hero-scale', {
       scale: 1,
+      translateY: 20,
       duration: 5,
       ease: 'power3.inOut'
     }, '<')
@@ -47,13 +48,12 @@ const Features = () => {
           <h3 className='text-center md:text-6xl text-4xl md:mx-0 mx-5 font-bold'>Features so good you <span className="text-[#ea922c]">Love us</span></h3>
           <p className='text-center md:px-0 px-5'>Mining NU Coin is free. All you need is an invitation from an existing trusted miner on the network.</p>
         </div>
-        <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
-          <div className="shadow-lg rounded-xl w-full overflow-hidden md:w-[70%] h-[25rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
-              <Image src={opt1} className='w-full h-full absolute top-0 left-0'  alt='opt1'/>
+        <div className="md:flex-row flex-col flex justify-center items-start md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
+          <div className="shadow-lg shadow-white/20 rounded-xl w-full overflow-hidden flex-shrink-0 md:w-[80%] h-[35rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
+              <Image src={opt1} className='w-full h-full absolute top-0 left-0 object-fit'  alt='opt1'/>
           </div>
-          <div className="shadow-lg rounded-xl h-[25rem] p-5 flex items-end w-full md:w-[45%] relative bg-gradient-to-t from-white to-[#f9fafb]">
+          <div className="shadow-lg shadow-white/20 rounded-xl h-[35rem] p-5 flex items-end w-full flex-shrink-0 md:w-[70%] relative overflow-hidden">
               <Image src={opt2} className='w-full h-full absolute top-0 left-0' alt='opt1' />
-
           </div>
         </div>
         {/* <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
