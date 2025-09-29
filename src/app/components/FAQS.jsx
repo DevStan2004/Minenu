@@ -57,7 +57,7 @@ const FAQS = () => {
     },
      {
       id: '10',
-      question: '10. Sustainable Growth',
+      question: 'Sustainable Growth',
       answer: 'The platform emphasizes long-term sustainability and scalability, making it ideal for projects aiming to grow steadily without being hindered by technical limitations or network congestion.'
     },
   ];
