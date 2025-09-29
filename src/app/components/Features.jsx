@@ -48,14 +48,56 @@ const Features = () => {
           <h3 className='text-center md:text-6xl text-4xl md:mx-0 mx-5 font-bold'>It get's easier as  <span className="text-[#ea922c]">you go.</span></h3>
           <p className='text-center md:px-0 px-5'>Mining NU Coin is free. All you need is an invitation from an existing trusted miner on the network.</p>
         </div>
-        <div className="md:flex-row flex-col flex justify-center items-start md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
+<div className="flex flex-col md:flex-row justify-center items-start md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3 md:space-y-0">
+  {/* First (Wider) Image Card */}
+  <div className="relative rounded-2xl overflow-hidden flex-shrink-0 md:w-[85%] w-full h-[35rem] shadow-[0_8px_40px_rgba(255,255,255,0.2)]">
+    <Image
+      src={opt1}
+      alt="Option 1"
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+    {/* Black overlay */}
+    <div className="absolute inset-0 bg-black/50"></div>
+    {/* Text section */}
+    <div className="absolute bottom-0 left-0 w-full p-6 text-white z-10">
+      <h3 className="text-2xl font-semibold mb-2">Minenu Circle</h3>
+      <p className="text-sm leading-relaxed opacity-90 text-[17px]">
+        Nucleus Core makes blockchain accessible to everyone, from developers to entrepreneurs, with intuitive tools for creating tokens, deploying smart contracts, and launching decentralized applications (dApps) without complex coding.
+      </p>
+    </div>
+  </div>
+
+  {/* Second (Narrower) Image Card */}
+  <div className="relative rounded-2xl overflow-hidden flex-shrink-0 md:w-[60%] w-full h-[35rem] shadow-[0_8px_40px_rgba(255,255,255,0.15)]">
+    <Image
+      src={opt2}
+      alt="Option 2"
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+    {/* Black overlay */}
+    <div className="absolute inset-0 bg-black/50"></div>
+    {/* Text section */}
+    <div className="absolute bottom-0 left-0 w-full p-6 text-white z-10">
+      <h3 className="text-2xl font-semibold mb-2">
+        Mini Apps & Developer Innovation
+      </h3>
+      <p className="text-sm leading-relaxed opacity-90 text-[17px]">
+        Developers can build applications within the Nucleus Core ecosystem, fully powered
+        by minenu.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+        {/* <div className="md:flex-row flex-col flex justify-center items-start md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
           <div className="shadow-lg shadow-white/20 rounded-xl w-full overflow-hidden flex-shrink-0 md:w-[80%] h-[35rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
               <Image src={opt1} className='w-full h-full absolute top-0 left-0 object-fit'  alt='opt1'/>
           </div>
           <div className="shadow-lg shadow-white/20 rounded-xl h-[35rem] p-5 flex items-end w-full flex-shrink-0 md:w-[70%] relative overflow-hidden">
               <Image src={opt2} className='w-full h-full absolute top-0 left-0' alt='opt1' />
           </div>
-        </div>
+        </div> */}
         {/* <div className="md:flex-row flex-col flex justify-center items-center md:w-[95%] w-full px-2 mx-auto md:space-x-5 space-y-3">
           <div className="shadow-lg rounded-xl w-full overflow-hidden md:w-[70%] h-[25rem] p-5 flex items-end bg-gradient-to-t from-white to-[#f9fafb] relative">
             <div className="w-full h-full absolute top-0 left-0" style={{
