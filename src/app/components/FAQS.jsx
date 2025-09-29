@@ -12,23 +12,53 @@ const FAQS = () => {
   const itemData = [
     {
       id: '1',
-      question: 'Why should I choose the Minenu platform for my Web3 needs?',
-      answer: 'Minenu offers cutting-edge Web3 technology, ensuring seamless operation and secure financial transactions tailored to your need.'
+      question: 'User-Friendly Ecosystem',
+      answer: 'Nucleus Core makes blockchain accessible to everyone, from developers to entrepreneurs, with intuitive tools for creating tokens, deploying smart contracts, and launching decentralized applications (dApps) without complex coding.'
     },
     {
       id: '2',
-      question: 'How do I get started with Minenu?',
-      answer: 'Visit the Minenu website or download the Minenu App from your App store and sign up to get started.'
+      question: 'Fast and Scalable Transactions',
+      answer: 'Its blockchain infrastructure ensures high-speed transactions with minimal delays, supporting large-scale applications and growing ecosystems efficiently.'
     },
     {
       id: '3',
-      question: 'What cryptocurrencies does Minenu support?',
-      answer: 'Minenu supports the Minenu token as well as BNB and other BNB enabled cryptocurrencies.'
+      question: 'Low Fees',
+      answer: 'Transactions on Nucleus Core are cost-effective, allowing users to transfer assets, swap tokens, or interact with dApps without excessive fees—a crucial factor for businesses and individuals.'
     },
     {
       id: '4',
-      question: 'What is Minenu?',
-      answer: 'Minenu is a next-generation Web3 ecosystem desined to make digital assets easy to use, send, earn, and build with. Powered by Minenu Token (Minenu), the platform is more than just a cryptocurrency—it\'s an open network for users, gamers, and developers to interact with block chain in a seamless way.'
+      question: 'Secure and Transparent',
+      answer: 'Built with cutting-edge security protocols, Nucleus Core provides transparency and immutability, giving users confidence that their assets and data are safe.'
+    },
+    {
+      id: '5',
+      question: 'Decentralized Finance (DeFi) Ready',
+      answer: 'The platform supports DeFi applications, enabling users to provide liquidity, stake, earn yields, and participate in decentralized financial systems seamlessly.'
+    },
+     {
+      id: '6',
+      question: 'Token Creation Made Simple',
+      answer: 'With tools that allow anyone to create their own cryptocurrency in just a few clicks, Nucleus Core empowers entrepreneurs, communities, and creators to launch digital assets quickly and easily.'
+    },
+     {
+      id: '7',
+      question: 'Global Reach',
+      answer: 'By enabling borderless transactions, Nucleus Core allows businesses and individuals to access global markets without intermediaries, expanding trade, remittances, and commerce opportunities.'
+    },
+     {
+      id: '8',
+      question: 'Innovation-Driven',
+      answer: 'continuously develops next-gen solutions—like cross-chain bridges, NFT support, and advanced dApp integrations—positioning users at the forefront of Web3 innovation.'
+    },
+     {
+      id: '9',
+      question: 'Community and Developer Support',
+      answer: 'A strong, growing community of developers and users provides collaboration, resources, and mentorship, ensuring that anyone entering Web3 can find guidance and support.'
+    },
+     {
+      id: '10',
+      question: '10. Sustainable Growth',
+      answer: 'The platform emphasizes long-term sustainability and scalability, making it ideal for projects aiming to grow steadily without being hindered by technical limitations or network congestion.'
     },
   ];
 
@@ -51,7 +81,7 @@ const FAQS = () => {
 
   return (
     <div className='flex flex-col space-y-10 md:mt-40 mt-10 mb-20 items-center md:w-[70%] p-2 mx-auto scrubcontainer opacity-0 translate-y-40'>
-      <h5 className='text-4xl text-[#fff] font-semibold'><span className='text-[#ea922c]'>Asked</span> Questions</h5>
+      <h5 className='text-4xl text-[#fff] font-semibold'><span className='text-[#ea922c]'>Asked </span> Questions</h5>
       <div className="flex flex-col space-y-5 bg-[#000] rounded-xl md:p-5 shadow-lg w-full">
         {itemData.map((item) => (
           <FAQContents key={item.id} accordionProp={accordion} setAccordionProp={setAccordion} item={item} />
