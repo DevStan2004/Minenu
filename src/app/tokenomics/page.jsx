@@ -2,13 +2,13 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex justify-center w-full my-30">
+    <div className="flex justify-center  my-30">
       <div className="w-screen flex flex-col space-y-5">
         <div className="text-center flex flex-col justify-center space-y-3">
           {/* <p className='text-[#4a5565]'>Last Update: January 2024</p> */}
         </div>
-        <div className="bg-white shadow rounded-lg w-full p-4 flex flex-col space-y-4">
-          <div className="md:w-[60vw] justify-center mx-auto my-3">
+        <div className="bg-white shadow rounded-lg p-4 flex flex-col space-y-4">
+          <div className="md:w-[60vw] w-[90vw] p-2 justify-center mx-auto my-3">
             <h1 className="text-5xl text-[#101828] font-bold text-center mx-auto py-5">
               NUCLEUS CORE CHAIN TOKENOMICS
             </h1>
@@ -79,9 +79,8 @@ const page = () => {
               This mechanism is not based on timing, but rather on total NU
               tokens mined...
             </p>
-            <div className="p-4 bg-white rounded-lg shadow-xl">
+            {/* <div className="p-4 bg-white rounded-lg shadow-xl">
   <table className="min-w-full divide-y divide-gray-200">
-    {/* Table Head */}
     <thead className="bg-gray-800 text-white">
       <tr>
         <th 
@@ -105,9 +104,7 @@ const page = () => {
       </tr>
     </thead>
     
-    {/* Table Body */}
     <tbody className="bg-white divide-y divide-gray-200">
-      {/* Row 1: Base Rate */}
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           20,000,000 NU
@@ -119,8 +116,7 @@ const page = () => {
           Base Rate
         </td>
       </tr>
-      
-      {/* Row 2 */}
+
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           60,000,000 NU
@@ -132,8 +128,6 @@ const page = () => {
           -30%
         </td>
       </tr>
-      
-      {/* Row 3 */}
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           100,000,000 NU
@@ -145,8 +139,7 @@ const page = () => {
           -30%
         </td>
       </tr>
-      
-      {/* Row 4 */}
+
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           130,000,000 NU
@@ -158,8 +151,6 @@ const page = () => {
           -30%
         </td>
       </tr>
-      
-      {/* Row 5 */}
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           150,000,000 NU
@@ -171,8 +162,6 @@ const page = () => {
           -30%
         </td>
       </tr>
-      
-      {/* Row 6 */}
       <tr className="hover:bg-gray-50">
         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
           180,000,000 NU
@@ -187,7 +176,116 @@ const page = () => {
       
     </tbody>
   </table>
-</div>
+</div> */}
+            <div className="p-4 bg-white rounded-lg shadow-xl overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200">
+                {/* Table Head */}
+                <thead className="bg-gray-800 text-white">
+                  <tr>
+                    <th 
+                      scope="col" 
+                      className="px-3 py-2 sm:px-6 sm:py-3 text-left text-xs font-bold uppercase tracking-wider"
+                    >
+                      Milestone (Total NU Mined)
+                    </th>
+                    <th 
+                      scope="col" 
+                      className="px-3 py-2 sm:px-6 sm:py-3 text-left text-xs font-bold uppercase tracking-wider"
+                    >
+                      Mining Rate Per Session
+                    </th>
+                    <th 
+                      scope="col" 
+                      className="px-3 py-2 sm:px-6 sm:py-3 text-left text-xs font-bold uppercase tracking-wider"
+                    >
+                      Reduction (%)
+                    </th>
+                  </tr>
+                </thead>
+                
+                {/* Table Body */}
+                <tbody className="bg-white divide-y divide-gray-200">
+                  {/* Row 1: Base Rate */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      20,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      1.000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      Base Rate
+                    </td>
+                  </tr>
+                  
+                  {/* Row 2 */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      60,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      0.700 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      -30%
+                    </td>
+                  </tr>
+                  
+                  {/* Row 3 */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      100,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      0.490 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      -30%
+                    </td>
+                  </tr>
+                  
+                  {/* Row 4 */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      130,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      0.343 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      -30%
+                    </td>
+                  </tr>
+                  
+                  {/* Row 5 */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      150,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      0.238 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      -30%
+                    </td>
+                  </tr>
+                  
+                  {/* Row 6 */}
+                  <tr className="hover:bg-gray-50">
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                      180,000,000 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      0.166 NU
+                    </td>
+                    <td className="px-3 py-2 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-900">
+                      -30%
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
             <h1 className="text-2xl text-[#101828] font-bold text-left mx-auto pt-15">
               WHY THIS MATTERS?
             </h1>
