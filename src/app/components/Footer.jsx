@@ -19,6 +19,7 @@ const Footer = () => {
                     <Link href='https://play.google.com/store/apps/details?id=com.minenu.nu_app' className="w-[40%]">
                     <Image src={android} width={1000} height={1000} alt='andoid' className="w-full" />
                     </Link>
+                    
                     <Link href='' className="w-[40%]">
                     <Image src={ios} width={1000} height={1000} alt='ios' className="w-full" />
                     </Link>
