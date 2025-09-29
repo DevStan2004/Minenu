@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
+import Link from 'next/link';
 
 const SocialsNav = ({icons}) => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -62,7 +63,7 @@ const SocialsNav = ({icons}) => {
                     onMouseLeave={handleMouseLeave} >
             <div ref={socialsRef} className="flex md:flex-row flex-col items-center  md:space-y-0 space-y-2">
                 {icons.map((icon, index) => (
-                    <div key={index} className="relative">
+                    <Link href={icon.link} key={index} className="relative">
 
                         <div className={`absolute rounded-md bg-[#262626] text-neutral-500 -top-1 md:block hidden -left-2 transition-all duration-200 ease-in-out text-[13px] py-1 md:px-2 ${hoveredIndex === index ? '-translate-y-20 opacity-100  delay-100' : '-translate-y-15 opacity-0'}`}>{icon.name}</div>
                         <div 
@@ -81,7 +82,7 @@ const SocialsNav = ({icons}) => {
                         >
                             {icon.icon}
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
             <div onClick={() => setSocialActive(!socialActive)}
