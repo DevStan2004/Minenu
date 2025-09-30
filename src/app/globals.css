@@ -1,6 +1,7 @@
 @import "tailwindcss";
 html{
   font-family: var(--font-exo2);
+  scroll-behavior: smooth;
 }
 
 body{
@@ -94,7 +95,7 @@ body{
 }
 
 .features{
-  clip-path: circle(0.4% at center);
+  clip-path: circle(0.4% at center);;
   -webkit-clip-path: circle(0.4% at center);
 }
 
