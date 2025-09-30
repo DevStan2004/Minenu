@@ -13,12 +13,13 @@ const Footer = () => {
     <div className={`flex-col justify-between md:w-[90%] md:rounded-3xl bg-[#000] md:px-10 px-5 md:py-20 mx-auto my-20 ${pathname === '/learn-more' || pathname === '/whitepaper' ? 'hidden' : 'flex'}`}>
         <div className="flex md:flex-row flex-col gap-10 justify-between w-full">
             <div className="flex flex-col space-y-5 md:w-1/3">
-                <h6 className='text-2xl font-bold'>Nucleus</h6>
+                <h6 className='text-2xl font-bold'>Nucleus Core</h6>
                 <p className="">First Native Blockchain for the Next Generation of Decentralized Apps. Start mining Nucleus Core cryptocurrency today with lightweight architecture built for mobile hardware.</p>
                 <div className="flex space-x-5 items-center">
-                    <Link href='' className="w-[40%]">
+                    <Link href='https://play.google.com/store/apps/details?id=com.minenu.nu_app' className="w-[40%]">
                     <Image src={android} width={1000} height={1000} alt='andoid' className="w-full" />
                     </Link>
+                    
                     <Link href='' className="w-[40%]">
                     <Image src={ios} width={1000} height={1000} alt='ios' className="w-full" />
                     </Link>
@@ -28,12 +29,12 @@ const Footer = () => {
                 <div className="flex flex-col space-y-5">
                     <p className="font-semibold">Socials</p>
                     <div className="flex flex-col space-y-3">
-                        <Link href=''>Facebook</Link>
-                        <Link href=''>Instagram</Link>
-                        <Link href=''>Youtube</Link>
-                        <Link href=''>X</Link>
-                        <Link href=''>Linkedin</Link>
-                        <Link href=''>GitHub</Link>
+                        <Link href='https://www.facebook.com/share/17Mx2TBJ99/'>Facebook</Link>
+                        {/* <Link href=''>Instagram</Link> */}
+                        <Link href='https://www.youtube.com/@nucleus_core'>Youtube</Link>
+                        <Link href='https://x.com/nucleus_core'>X</Link>
+                        <Link href='https://t.me/nucleus_core'>Telegram</Link>
+                        <Link href='https://www.tiktok.com/@nucleus_core?_t=zs-9069obgnvxq&_r=1'>Tiktok</Link>
                     </div>
                 </div>
                 <div className="flex flex-col space-y-5">
@@ -48,7 +49,8 @@ const Footer = () => {
             </div>
         </div>
         <div className="flex space-x-15 justify-center md:mt-20 md:my-0 my-5 items-center ">
-            <p className="text-[15px]">Nucleus</p>
+            <p className="text-[15px]">Nucleus Core All rights reserved.</p>
+            {/* <p className="text-[15px]">Nucleus Core</p> */}
             <div className="flex space-x-5 justify-center">
                 <Link href='/'>
                 <Image src={minenuLogo} width={1000} height={1000} alt='Nucleus' className='md:w-15 w-10' />

@@ -53,12 +53,12 @@ const TonFeatures = () => {
             <Icon icon={f.icon} className="text-[#ea922c] text-4xl" />
             <h3 className="font-semibold text-lg text-black">{f.title}</h3>
             <p className="text-gray-600 text-[20px]" >{f.desc}</p>
-            <a
+            {/* <a
               href="#"
               className="text-[#ea922c] text-sm font-medium hover:underline mt-auto"
             >
               {f.linkText} →
-            </a>
+            </a> */}
           </div>
         ))}
       </div>
