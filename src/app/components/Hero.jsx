@@ -134,7 +134,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full mx-auto relative h-full mb-10">
-            <div className="overflow-hidden absolute md:-bottom-10 -bottom-60 z-1 w-full h-full animate-scale">
+            <div className="overflow-hidden absolute md:-bottom-10 -bottom-60 z-1 w-full h-full animate-scale md:block hidden">
                 <div className="w-[60rem] h-[60rem] rounded-full border-r-2 border-s-2  border-white absolute left-1/2 -translate-x-1/2 -top-50"></div>
             </div>
             <div className="absolute z-2 rounded-[3rem] w-[22rem] left-1/2 -translate-x-1/2 md:translate-y-0 translate-y-40 stake bg-[#171717] p-5 flex flex-col top-30 animate-screen">

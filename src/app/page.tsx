@@ -14,6 +14,7 @@ import Lenis from 'lenis';
 import gsap from 'gsap';
 import Tonfeatures from '@/app/components/TonFeatures'
 import TonInfo from '@/app/components/TonInfo'
+import Steps from '@/app/components/Steps'
 import { link } from "fs";
 import { Icon } from "@iconify/react";
 
@@ -185,6 +186,7 @@ export default function Home() {
       </div>
       <Tonfeatures />
       <FAQS />
+      <Steps />
       <Connect />
       <SocialsNav icons={icons} />
     </div>
