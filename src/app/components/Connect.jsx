@@ -51,9 +51,9 @@ const Connect = () => {
         </div>
         <div className="w-full mx-auto flex justify-between items-center">
             <div className="flex justify-center items-center translate-x-125 p-2 opacity-0 translatethis bg-gradient-to-t from-white to-[#f9fafb] rounded-full dark:shadow-[inset_4px_20px_30px_#f1f1f1,0px_5px_16px_#f1f1f1]">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-youtube md:w-11 w-20 md:h-10 text-white dark:text-neutral-300"><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"></path><path d="M10 9l5 3l-5 3z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-youtube w-10 h-10 text-white dark:text-neutral-300"><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"></path><path d="M10 9l5 3l-5 3z"></path></svg>
             </div>
-            <div className="flex flex-col items-center text-center md:space-y-4 relative z-10 space-y-2">
+            <div className="flex flex-col flex-shrink-0 items-center text-center md:space-y-4 relative z-10 space-y-2">
                 <h5 className='lg:text-5xl md:text-3xl text-[1.2rem] font-bold'>Connect with the <span className='text-[#ff6f31]'>Nucleus</span></h5>
                 <h5 className='lg:text-5xl md:text-3xl text-[1.2rem] font-bold'>Community <span className='text-[#ff6f31]'>Everywhere</span></h5>
                 <Link href="https://linktr.ee/nucleus_core" className='bg-gradient-to-t from-black to-[#a8a8a8] rounded-lg text-white font-semibold py-2 px-5'>Connect</Link>
